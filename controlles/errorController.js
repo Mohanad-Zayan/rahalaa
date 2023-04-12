@@ -24,14 +24,20 @@ const handleJWTError = () => {
 const handleJWTExpiredError = () => {
   return new AppError(`Token has expired please, login again`, 401);
 };
+
+
 const SendErrorDev = (err, res) => {
+
   res.status(err.statusCode).json({
     status: err.status,
     error: err,
     message: err.message,
     stack: err.stack
   });
+
 };
+
+
 const SendErrorProd = (err, res) => {
   if (err.isOperational) {
     console.log({err});
@@ -47,13 +53,21 @@ const SendErrorProd = (err, res) => {
     });
   }
 };
+
+// make sure error has suitable format or appropriate for the enviroment  
+
+
 module.exports = (err, req, res, next) => {
+
   err.statusCode = err.statusCode || 500;
   err.status = err.status || 'error';
 
   if (process.env.NODE_ENV === 'DEV') {
+
     SendErrorDev(err, res);
+
   } else if (process.env.NODE_ENV === 'PROD') {
+
     let error = { ...err };
     if (err.code == 11000) error = handleDublicateErrorDB(error);
     if (err.name == 'CastError') error = handleCastErrorDB(error);

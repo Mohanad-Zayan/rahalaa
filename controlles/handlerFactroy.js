@@ -1,6 +1,8 @@
 const AppError = require('../util/AppError');
 const catchAsync = require('../util/catcAsync');
 const APIFeatures = require('../util/ApiFeature');
+const Hotel = require('../models/Hotel.model');
+
 
 exports.deleteOne = Model => {
   return catchAsync(async (req, res, next) => {
@@ -52,7 +54,7 @@ exports.getOne = (Model, populateOption) => {
     });
   });
 };
-
+ 
 exports.createOne = Model => {
   return catchAsync(async (req, res) => {
     const document = await Model.create(req.body);

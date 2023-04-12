@@ -15,5 +15,10 @@ router
   .patch(attractionController.updateAttraction)
   .delete(attractionController.deleteAttraction);
 
+router
+  .route('/attractions-within/distance/:distance/center/:latlng/unit/:unit')
+  .get(attractionController.attractionsWithin)
+
+
 module.exports = router;
 

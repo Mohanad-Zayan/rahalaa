@@ -5,6 +5,7 @@ const AppError = require('./util/AppError');
 const globalErrorHandlers = require('./controlles/errorController')
 
 const userRouter = require('./routes/userRoutes');
+const cityRouter = require('./routes/cityRoutes');
 
 const app = express();
 
@@ -21,14 +22,17 @@ app.use((req, res, next) => {
   next();
 });
 
-// 3) ROUTES
-app.use('/api/users', userRouter);
- 
+// 3) ROUTES index
 
-// operational error
+app.use('/api/users', userRouter);
+app.use('/city/:city', cityRouter);
+
+
 app.all('*', (req, res ,next)=>{
   next(new AppError(`can't find ${req.originalUrl}!` , 404)) ; 
 });
 
 app.use(globalErrorHandlers)
+
 module.exports = app;
+

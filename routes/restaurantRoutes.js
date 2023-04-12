@@ -15,5 +15,10 @@ router
   .patch(restaurantController.updateRestaurant)
   .delete(restaurantController.deleteRestaurant);
 
+
+router
+  .route('/restaurants-within/distance/:distance/center/:latlng/unit/:unit')
+  .get(restaurantController.restaurantsWithin)
+
 module.exports = router;
 

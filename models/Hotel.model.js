@@ -48,7 +48,8 @@ const hotelSchema = new mongoose.Schema(
         default: "Point",
         enum: ["Point"],
       },
-      coordinates: [Number],
+      
+      coordiantes: [Number],
       address: String,
       // description: String,
     },
@@ -63,6 +64,9 @@ const hotelSchema = new mongoose.Schema(
     toObject: { virtuals: true },
   }
 );
+
+hotelSchema.index({startLocation : '2dsphere'  });
+
 
 const Hotel = mongoose.model("Hotel", hotelSchema);
 module.exports = Hotel;

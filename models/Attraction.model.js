@@ -31,16 +31,23 @@ const attractionSchema = new mongoose.Schema(
         default: "Point",
         enum: ["Point"],
       },
-      coordinates: [Number],
+      coordiantes: [Number],
       address: String,
       // description: String,
-    }
+    },
+      
+    activityDesctiptor :[{
+      type  : String 
+    }]   
   },
   {
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
   }
 );
+
+
+attractionSchema.index({startLocation : '2dsphere'  });
 
 
 const Attraction = mongoose.model("Attraction", attractionSchema);

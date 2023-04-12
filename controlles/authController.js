@@ -99,12 +99,13 @@ exports.protect = catcAsync(async (req, res, next) => {
     );
 
   // grant access
-  req.user = freshUser;
+  req.user = freshUser; 
   next();
 });
 
 exports.restrictTo = (...roles) => {
   return (req, res, next) => {
+    
     if (!roles.includes(req.user.role)) {
       return next(
         new AppError('this role not allowed to perform this action', 403)

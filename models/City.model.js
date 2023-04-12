@@ -2,10 +2,11 @@ const mongoose = require("mongoose");
 
 const CitySchema = new mongoose.Schema(
   {
-    name: {
+    name: { 
       type: String,
       required: [true, "A city Requires Names"],
     },
+    
     restaurants: [
       {
         type: mongoose.Schema.ObjectId,
@@ -24,6 +25,14 @@ const CitySchema = new mongoose.Schema(
         ref: "Attraction",
       },
     ],
+    // to be reviewd later //
+    activities: [
+      {
+        type: mongoose.Schema.ObjectId,
+        ref: "Activity",
+      },
+    ],
+    
   },
   {
     toJSON: { virtuals: true },
@@ -43,6 +52,9 @@ CitySchema.pre(/^find/, function(next) {
 
   this.populate({
     path: "attractions",
+  });
+  this.populate({
+    path: "activities",
   });
   next();
 });

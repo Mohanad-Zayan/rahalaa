@@ -32,18 +32,22 @@ const restaurantSchema = new mongoose.Schema(
     cuisine: [{
       type : String
     }],
+    
     location: {
       type: {
         type: String,
         default: "Point",
         enum: ["Point"],
       },
-      coordinates: [Number],
+
+      coordiantes: [Number],
       address: String,
     },
+
     // reviews: [{}],
 
-    // rankingDenominator: {},
+      // numberOfReviews : {},
+      // rankingDenominator: {},
 
       // isClosed : {},
       // isLongClosed : {},
@@ -52,13 +56,15 @@ const restaurantSchema = new mongoose.Schema(
       // webUrl : {},
       // website : {},
       // rankingString : {},
-      // numberOfReviews : {},
   },
   {
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
   }
 );
+
+restaurantSchema.index({startLocation : '2dsphere'  });
+
 
 const Restaurant = mongoose.model("Restaurant", restaurantSchema);
 module.exports = Restaurant;
