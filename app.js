@@ -33,9 +33,9 @@ app.use('/api/city', cityRouter) ;
 
 
 // dashaboard specfic endpoints 
-app.use('/api/attractions',attractiosnRouter ) ; 
-app.use('/api/hotels',hotelsRouter ) ; 
-app.use('/api/restaurants',restaurantsRouter ) ; 
+// app.use('/api/attractions',attractiosnRouter ) ; 
+// app.use('/api/hotels',hotelsRouter ) ; 
+// app.use('/api/restaurants',restaurantsRouter ) ; 
 
 
 

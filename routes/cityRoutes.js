@@ -15,7 +15,7 @@ const router = express.Router();
 
 
 router.use('/:city/hotels', hotelsRouter)
-router.use('/:city/restraunts', restaurantsRouter)
+router.use('/:city/restaurants', restaurantsRouter)
 router.use('/:city/attractions', attractionsRouter)
 
 // router.use('/actvties', actvtiesRouter)
