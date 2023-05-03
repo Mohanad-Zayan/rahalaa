@@ -17,6 +17,7 @@ const attractionSchema = new mongoose.Schema(
       max: [5, "Rating must be below 5.0"],
       set: (val) => Math.round(val * 10) / 10,
     },
+    
     num_reviews: {
       type: Number,
       default: 0,
@@ -47,7 +48,9 @@ const attractionSchema = new mongoose.Schema(
 );
 
 
-attractionSchema.index({startLocation : '2dsphere'  });
+
+attractionSchema.index({location : '2dsphere'  });
+
 
 
 const Attraction = mongoose.model("Attraction", attractionSchema);

@@ -6,6 +6,10 @@ const globalErrorHandlers = require('./controlles/errorController')
 
 const userRouter = require('./routes/userRoutes');
 const cityRouter = require('./routes/cityRoutes');
+const attractiosnRouter = require('./routes/attractionRoutes');
+const hotelsRouter = require('./routes/hotelRoutes');
+const restaurantsRouter = require('./routes/restaurantRoutes');
+
 
 const app = express();
 
@@ -25,7 +29,14 @@ app.use((req, res, next) => {
 // 3) ROUTES index
 
 app.use('/api/users', userRouter);
-app.use('/city/:city', cityRouter);
+app.use('/api/city', cityRouter) ; 
+
+
+// dashaboard specfic endpoints 
+app.use('/api/attractions',attractiosnRouter ) ; 
+app.use('/api/hotels',hotelsRouter ) ; 
+app.use('/api/restaurants',restaurantsRouter ) ; 
+
 
 
 app.all('*', (req, res ,next)=>{
@@ -34,5 +45,5 @@ app.all('*', (req, res ,next)=>{
 
 app.use(globalErrorHandlers)
 
-module.exports = app;
+module.exports = app ;
 

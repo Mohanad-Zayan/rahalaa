@@ -1,38 +1,37 @@
-const AppError = require('../util/AppError');
-const catchAsync = require('../util/catcAsync');
-const APIFeatures = require('../util/ApiFeature');
-const Hotel = require('../models/Hotel.model');
+const AppError = require("../util/AppError");
+const catchAsync = require("../util/catcAsync");
+const APIFeatures = require("../util/ApiFeature");
+const Hotel = require("../models/Hotel.model");
 
-
-exports.deleteOne = Model => {
+exports.deleteOne = (Model) => {
   return catchAsync(async (req, res, next) => {
     const doc = await Model.findByIdAndDelete(req.params.id);
 
     if (doc == null)
-      return next(new AppError('No Document Found With this id', 404));
+      return next(new AppError("No Document Found With this id", 404));
 
     res.status(204).json({
-      status: 'success',
-      data: null
+      status: "success",
+      data: null,
     });
   });
 };
 
-exports.updateOne = Model => {
+exports.updateOne = (Model) => {
   return catchAsync(async (req, res, next) => {
     const doc = await Model.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
-      runValidtor: true
+      runValidtor: true,
     });
 
     if (doc == null)
-      return next(new AppError('No Document Found With this id', 404));
+      return next(new AppError("No Document Found With this id", 404));
 
     res.status(200).json({
-      status: 'success',
+      status: "success",
       data: {
-        document: doc
-      }
+        document: doc,
+      },
     });
   });
 };
@@ -44,33 +43,36 @@ exports.getOne = (Model, populateOption) => {
     const document = await query;
 
     if (document == null)
-      return next(new AppError('No document Found With this id', 404));
+      return next(new AppError("No document Found With this id", 404));
 
     res.status(200).json({
-      status: 'success',
+      status: "success",
       data: {
-        document
-      }
+        document,
+      },
     });
   });
 };
- 
-exports.createOne = Model => {
+
+exports.createOne = (Model) => {
   return catchAsync(async (req, res) => {
     const document = await Model.create(req.body);
     res.status(201).json({
-      status: 'success',
+      status: "success",
       data: {
-        document
-      }
+        document,
+      },
     });
   });
 };
 
-exports.getAll = Model => {
+exports.getAll = (Model) => {
   return catchAsync(async (req, res) => {
-    let filtter = {};
-    if (req.params.tourId) filtter = { tour: req.params.tourId };
+    console.log("hellpo");
+    // let filtter = {};
+    // if (req.params.id) filtter = { hotel: req.params.hotelId };
+    // if (req.params.id) filtter = { restaurant: req.params.restaurantId };
+    // if (req.params.id) filtter = { attraction: req.params.attractionId };
 
     const faetures = new APIFeatures(Model.find(), req.query)
       .filtter()
@@ -78,14 +80,14 @@ exports.getAll = Model => {
       .limiting()
       .pagination();
 
-    const docuemnts = await faetures.query.explain();
+    const docuemnts = await faetures.query;
 
     //send response
     res.status(200).json({
-      status: 'success',
+      status: "success",
       data: {
-        docuemnts
-      }
+        docuemnts,
+      },
     });
   });
 };

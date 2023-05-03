@@ -2,7 +2,7 @@ const express = require('express');
 const restaurantController= require('../controlles/restaurantController');
 
 
-const router = express.Router();
+const router = express.Router({ mergeParams: true });
 
 
 router

@@ -30,10 +30,12 @@ exports.signup = catcAsync(async (req, res, next) => {
     email: req.body.email,
     password: req.body.password,
     passwordConfirm: req.body.passwordConfirm
+    
   });
 
   createAndSendToken(newUser, 201, res);
-}); //
+  
+}); 
 
 exports.login = catcAsync(async (req, res, next) => {
   const { email, password } = req.body;

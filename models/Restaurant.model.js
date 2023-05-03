@@ -4,7 +4,7 @@ const restaurantSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, "A Hotel must have a name"],
+      required: [true, "A Restaraunt must have a name"],
       trim: true,
     },
     image: {
@@ -63,7 +63,9 @@ const restaurantSchema = new mongoose.Schema(
   }
 );
 
-restaurantSchema.index({startLocation : '2dsphere'  });
+
+restaurantSchema.index({location : '2dsphere'  });
+
 
 
 const Restaurant = mongoose.model("Restaurant", restaurantSchema);

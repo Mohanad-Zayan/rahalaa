@@ -1,5 +1,6 @@
 const Restaurant = require('../models/Restaurant.model');
 const factory = require('./handlerFactroy');
+const catcAsync = require('../util/catcAsync');
 
 
 
@@ -12,7 +13,7 @@ exports.deleteRestaurant = factory.deleteOne(Restaurant);
 
 
 // /restaurants-within/distance/:distance/center/:latlng/unit/:unit
-exports.restaurantsWithin = catchAsync(async (req, res, next) => {
+exports.restaurantsWithin = catcAsync(async (req, res, next) => {
     const { distance, latlng, unit } = req.params;
     const [lat, lng] = latlng.split(',');
     const radius = unit === 'mi' ? distance / 3963.2 : distance / 6378.1;

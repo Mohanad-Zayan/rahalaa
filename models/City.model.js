@@ -44,7 +44,7 @@ const CitySchema = new mongoose.Schema(
 CitySchema.pre(/^find/, function(next) {
   this.populate({
     path: "restaurants",
-  });
+  } , "");
 
   this.populate({
     path: "hotels",
@@ -65,3 +65,5 @@ CitySchema.pre(/^find/, function(next) {
 
 const City = mongoose.model('City', CitySchema);
 module.exports = City ;
+
+

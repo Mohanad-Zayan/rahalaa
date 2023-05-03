@@ -8,12 +8,16 @@ const hotelSchema = new mongoose.Schema(
       required: [true, "A Hotel must have a name"],
       trim: true,
     },
+    city:{
+      type: String,
+      required: [true, "A city must have a name"],
+      
+    },
     image: {
       type: String,
     },
     priceLevel: {
-      type: String,
-      // match : /[$ -]/, 
+      type: String, 
       default: '$$'
     },
     rating: {
@@ -65,7 +69,8 @@ const hotelSchema = new mongoose.Schema(
   }
 );
 
-hotelSchema.index({startLocation : '2dsphere'  });
+hotelSchema.index({location : '2dsphere'  });
+
 
 
 const Hotel = mongoose.model("Hotel", hotelSchema);

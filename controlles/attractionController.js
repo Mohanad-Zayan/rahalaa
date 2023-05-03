@@ -1,5 +1,6 @@
 const Attraction = require('../models/Attraction.model');
 const factory = require('./handlerFactroy');
+const catcAsync = require('../util/catcAsync');
 
 
 
@@ -12,7 +13,7 @@ exports.getAllAttractions = factory.getAll(Attraction);
 
 
 // /attractions-within/distance/:distance/center/:latlng/unit/:unit
-exports.attractionsWithin = catchAsync(async (req, res, next) => {
+exports.attractionsWithin = catcAsync(async (req, res, next) => {
     const { distance, latlng, unit } = req.params;
     const [lat, lng] = latlng.split(',');
     const radius = unit === 'mi' ? distance / 3963.2 : distance / 6378.1;

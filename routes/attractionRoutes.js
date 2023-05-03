@@ -2,7 +2,7 @@ const express = require('express');
 const attractionController = require('../controlles/attractionController');
 
 
-const router = express.Router();
+const router = express.Router({ mergeParams: true });
 
 
 router
