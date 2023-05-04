@@ -19,6 +19,6 @@ router
 router
   .route('/hotels-within/distance/:distance/center/:latlng/unit/:unit')
   .get(hotelController.hotelsWithin)
-  
+
 module.exports = router;
 

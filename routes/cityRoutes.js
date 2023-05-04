@@ -12,11 +12,13 @@ const router = express.Router();
 
 
 
-
+// 
 
 router.use('/:city/hotels', hotelsRouter)
 router.use('/:city/restaurants', restaurantsRouter)
 router.use('/:city/attractions', attractionsRouter)
+
+// actvities  
 
 // router.use('/actvties', actvtiesRouter)
 

@@ -68,7 +68,7 @@ exports.createOne = (Model) => {
 
 exports.getAll = (Model) => {
   return catchAsync(async (req, res) => {
-    console.log("hellpo");
+    // console.log("hellpo");
     // let filtter = {};
     // if (req.params.id) filtter = { hotel: req.params.hotelId };
     // if (req.params.id) filtter = { restaurant: req.params.restaurantId };
