@@ -41,23 +41,23 @@ const CitySchema = new mongoose.Schema(
 );
 
 // populate refernced data when reterived 
-CitySchema.pre(/^find/, function(next) {
-  this.populate({
-    path: "restaurants",
-  } , "");
+// CitySchema.pre(/^find/, function(next) {
+//   this.populate({
+//     path: "restaurants",
+//   } , "");
 
-  this.populate({
-    path: "hotels",
-  });
+//   this.populate({
+//     path: "hotels",
+//   });
 
-  this.populate({
-    path: "attractions",
-  });
-  this.populate({
-    path: "activities",
-  });
-  next();
-});
+//   this.populate({
+//     path: "attractions",
+//   });
+//   this.populate({
+//     path: "activities",
+//   });
+//   next();
+// });
 
 
 

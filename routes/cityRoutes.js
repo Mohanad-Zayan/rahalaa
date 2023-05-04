@@ -1,31 +1,31 @@
 const express  = require("express");
-
-const hotelsRouter  = require("./hotelRoutes");
-
-const restaurantsRouter  = require("./restaurantRoutes");
-
-const attractionsRouter  = require("./attractionRoutes");
-
+const cityHotelsRoutes= require('./cityHotelsRouter');
+const cityRestrauntsRoutes= require('./cityRestrauntsRouter');
+const cityAttractionsRoutes = require('./cityAttractionRouter');
+const cityActvtiesRoutes = require('./cityActvtiesRouter');
+const cityController = require('../controlles/cityController');
 // const actvtiesRouter  = require("./actvtiesRouter");
 
-const router = express.Router();
+const router = express.Router({mergeParams : true});
 
 
 
-// 
+router.use('/city/:city/hotels', cityHotelsRoutes)
+router.use('/city/:city/restaurants',cityRestrauntsRoutes )
+router.use('/city/:city/attractions', cityAttractionsRoutes)
+router.use('/city/:city/activties', cityActvtiesRoutes)
 
-router.use('/:city/hotels', hotelsRouter)
-router.use('/:city/restaurants', restaurantsRouter)
-router.use('/:city/attractions', attractionsRouter)
 
-// actvities  
 
-// router.use('/actvties', actvtiesRouter)
+router
+  .route('/')
+  .get(cityController.getAllCities)
+router
+  .route('/city/:city')
+  .get(cityController.getOneCity)
 
-// router
-//   .route('/')
-//   .get(cityController.getAllCities)
 //   .post(cityController.createCity);
+
 
 // router
 //   .route('/:id')

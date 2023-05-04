@@ -29,7 +29,7 @@ app.use((req, res, next) => {
 // 3) ROUTES index
 
 app.use('/api/users', userRouter);
-app.use('/api/city', cityRouter) ; 
+app.use('/api/cities', cityRouter) ; 
 
 
 // dashaboard specfic endpoints 
