@@ -537,11 +537,24 @@ exports.searchInResources = catchAsync(async (req, res, next) => {
   }
 
   const cities = await searchCity(cityName, query);
+  if(cityName){
 
-  res.status(200).json({
-    status: "success",
-    data: {
-      cities,
-    },
-  });
+    res.status(200).json({
+      status: "success",
+      data: {
+        [cityName]: cities , 
+      },
+    });
+  }else{
+
+
+    res.status(200).json({
+      status: "success",
+      data: {
+        cities  
+      },
+    });
+  }
+
+
 });
