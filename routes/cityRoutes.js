@@ -20,10 +20,18 @@ router.use('/city/:city/activties', cityActvtiesRoutes)
 router
   .route('/')
   .get(cityController.getAllCities)
-router
+  router
   .route('/city/:city')
   .get(cityController.getOneCity)
 
+router
+    .route('/search')
+    .get(cityController.searchInResources)
+
+router
+    .route('/city/:city/search')
+    .get(cityController.searchInResources)
+  
 //   .post(cityController.createCity);
 
 

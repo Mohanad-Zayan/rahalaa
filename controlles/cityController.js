@@ -16,7 +16,16 @@ exports.getAllCityHotels = catchAsync(async (req, res, next) => {
 
   const [city] = await City.find({ name: cityName })
     .select({ hotels: 1 })
-    .populate("hotels");
+    .populate({
+      path: "hotels",
+      options: {
+        limit: req.query.limit || 10,
+        skip: req.query.page ? (req.query.page - 1) * req.query.limit : 1,
+        sort: req.query.sort
+          ? req.query.sort.split(",").join(" ")
+          : "-createdAt",
+      },
+    });
 
   if (!city) {
     return next(new AppError("City not found", 404));
@@ -132,7 +141,16 @@ exports.getAllCityRestaurants = catchAsync(async (req, res, next) => {
 
   const [city] = await City.find({ name: cityName })
     .select({ restaurants: 1 })
-    .populate("restaurants");
+    .populate({
+      path: "restaurants",
+      options: {
+        limit: req.query.limit || 10,
+        skip: req.query.page ? (req.query.page - 1) * req.query.limit : 1,
+        sort: req.query.sort
+          ? req.query.sort.split(",").join(" ")
+          : "-createdAt",
+      },
+    });
 
   if (!city) {
     return next(new AppError("City not found", 404));
@@ -255,7 +273,16 @@ exports.getAllCityAttractions = catchAsync(async (req, res, next) => {
 
   const [city] = await City.find({ name: cityName })
     .select({ attractions: 1 })
-    .populate("attractions");
+    .populate({
+      path: "attractions",
+      options: {
+        limit: req.query.limit || 10,
+        skip: req.query.page ? (req.query.page - 1) * req.query.limit : 1,
+        sort: req.query.sort
+          ? req.query.sort.split(",").join(" ")
+          : "-createdAt",
+      },
+    });
 
   if (!city) {
     return next(new AppError("City not found", 404));
@@ -378,7 +405,6 @@ exports.getAllCityActivities = catchAsync(async (req, res, next) => {
   // Retrieve all distinct activity types for the city
   const activityTypes = await Actvity.distinct("type", { city: cityName });
 
-  console.log(cityName);
   // Return the activity types in the response
   res.status(200).json({
     status: "success",
@@ -394,12 +420,18 @@ exports.getAllCityActivitiesAttractions = catchAsync(async (req, res, next) => {
 
   const activityType = req.params.activity;
 
-  console.log(activityType);
   // Find the activity with the specified type and city and populate its attractions
   const activity = await Actvity.findOne({
     type: activityType,
     city: cityName,
-  }).populate("attractions");
+  }).populate({
+    path: "attractions",
+    options: {
+      limit: req.query.limit || 10,
+      skip: req.query.page ? (req.query.page - 1) * req.query.limit : 1,
+      sort: req.query.sort ? req.query.sort.split(",").join(" ") : "-createdAt",
+    },
+  });
 
   // If the activity is not found, return an error response
   if (!activity) {
@@ -416,23 +448,22 @@ exports.getAllCityActivitiesAttractions = catchAsync(async (req, res, next) => {
 });
 
 exports.getAllCities = catchAsync(async (req, res, next) => {
-  const cities = await City
-    .find()
-    .populate('hotels')
-    .populate('restaurants')
-    .populate('activities')
-    .select({attractions : 0})
-  
-  if(!cities){
-    return new AppError('No cities found' , 404)
+  const cities = await City.find()
+    .populate("hotels")
+    .populate("restaurants")
+    .populate("activities")
+    .select({ attractions: 0 });
+
+  if (!cities) {
+    return new AppError("No cities found", 404);
   }
 
   res.status(200).json({
-    status: "success" , 
+    status: "success",
     data: {
-      cities
-    }
-  })
+      cities,
+    },
+  });
 });
 exports.getOneCity = catchAsync(async (req, res, next) => {
   let cityName = req.params.city;
@@ -440,21 +471,77 @@ exports.getOneCity = catchAsync(async (req, res, next) => {
   cityName = cityName.toLowerCase();
   cityName = cityName.charAt(0).toUpperCase() + cityName.slice(1);
 
-  const cities = await City
-    .findOne({name : cityName}) 
-    .populate('hotels')
-    .populate('restaurants')
-    .populate('activities')
-    .select({attractions : 0})
-  
-  if(!cities){
-    return next(new AppError('No cities found' , 404))
+  const cities = await City.findOne({ name: cityName })
+    .populate("hotels")
+    .populate("restaurants")
+    .populate("activities")
+    .select({ attractions: 0 });
+
+  if (!cities) {
+    return next(new AppError("No cities found", 404));
   }
 
   res.status(200).json({
-    status: "success" , 
+    status: "success",
     data: {
-      cities
+      cities,
+    },
+  });
+});
+
+const searchCity = async (city, query) => {
+  const findObj = city ? { name: city } : {};
+
+  const cities = await City.find(findObj)
+    .select({ activities: 0 })
+    .populate({
+      path: "restaurants",
+      match: { name: { $regex: query, $options: "i" } },
+    })
+    .populate({
+      path: "hotels",
+      match: { name: { $regex: query, $options: "i" } },
+    })
+    .populate({
+      path: "attractions",
+      match: { name: { $regex: query, $options: "i" } },
+    })
+
+    .exec();
+
+  const filteredCities = cities.filter((city) => {
+    if (city.hotels.length == 0) {
     }
-  })
+    return (
+      city.restaurants.length !== 0 ||
+      city.hotels.length === 0 ||
+      city.attractions.length !== 0 ||
+      city.activities.length !== 0
+    );
+  });
+
+  return filteredCities;
+};
+
+exports.searchInResources = catchAsync(async (req, res, next) => {
+  let cityName = req.params.city;
+  const query = req.query.search;
+
+  if (cityName) {
+    cityName = cityName.toLowerCase();
+    cityName = cityName.charAt(0).toUpperCase() + cityName.slice(1);
+  }
+
+  if (!query) {
+    return next(new AppError("please provid a key word for search"));
+  }
+
+  const cities = await searchCity(cityName, query);
+
+  res.status(200).json({
+    status: "success",
+    data: {
+      cities,
+    },
+  });
 });
