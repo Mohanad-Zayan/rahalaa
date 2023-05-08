@@ -36,12 +36,13 @@ const adjustingDataShape = () => {
       const jsonObj = JSON.parse(fs.readFileSync(directory, "utf-8"));
   
       jsonObj.forEach((obj) => {
-        const { latitude, longitude, address , subtype , subcategory } = obj;
+        const { latitude, longitude, address , subtype , subcategory  } = obj;
         delete obj.latitude;
         delete obj.longitude;
         delete obj.address;
         delete obj.subtype
         delete obj.subcategory
+       
         
         obj.location = {
           
@@ -49,7 +50,10 @@ const adjustingDataShape = () => {
           address,
         }; 
 
+
         if(el == 'attractions'){
+          const num_reviews = obj.num_reviews ;
+          delete obj.num_reviews
           console.log(subcategory);
           // console.log();
           const activities = subcategory?.map(el => el.name); 
@@ -57,6 +61,7 @@ const adjustingDataShape = () => {
   
           obj.activities = activities ;
           obj.activityDesctiptor = activityDesctiptor ;
+          obj.numberOfReviews =  num_reviews ;
         }
 
 
@@ -74,19 +79,19 @@ const adjustingDataShape = () => {
 
 // adjustingDataShape()
 
-const collectionsCleaning = () =>{
-  (async function(){
+// const collectionsCleaning = () =>{
+//   (async function(){
   
-  try{
-      await mongoose.connection.dropCollection('restaurants')
-      await mongoose.connection.dropCollection('attractions')
-      await mongoose.connection.dropCollection('hotels')
-      await mongoose.connection.dropCollection('cities')
-    }catch(error){
-      console.log(error);
-    }
-  }());
-}
+//   try{
+//       await mongoose.connection.dropCollection('restaurants')
+//       await mongoose.connection.dropCollection('attractions')
+//       await mongoose.connection.dropCollection('hotels')
+//       await mongoose.connection.dropCollection('cities')
+//     }catch(error){
+//       console.log(error);
+//     }
+//   }());
+// }
 
 const generalDataCreation = () => {
 
@@ -143,7 +148,6 @@ const generalDataCreation = () => {
     });
   });
 }
-
 
 
 

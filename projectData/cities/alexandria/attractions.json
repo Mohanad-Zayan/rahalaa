@@ -4,7 +4,6 @@
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/85/0e/a4/stanley-bridge.jpg",
     "location_id": "1020148",
     "name": "Stanley Bridge",
-    "num_reviews": "571",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -826,14 +825,14 @@
       "address": "Alexandria Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Bridges"]
+    "activityDesctiptor": ["Bridges"],
+    "numberOfReviews": "571"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/daodao/photo-s/05/b0/52/c3/caption.jpg",
     "location_id": "6475508",
     "name": "Lighthouse of Alexandria",
-    "num_reviews": "169",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -1658,14 +1657,14 @@
       "address": "Alexandria Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Lighthouses", "Points of Interest & Landmarks"]
+    "activityDesctiptor": ["Lighthouses", "Points of Interest & Landmarks"],
+    "numberOfReviews": "169"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/71/3d/e8/the-facade.jpg",
     "location_id": "459902",
     "name": "Alexandria National Museum",
-    "num_reviews": "285",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -2505,14 +2504,14 @@
       "address": "110 El Horreya Rd. Raml Station, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["History Museums"]
+    "activityDesctiptor": ["History Museums"],
+    "numberOfReviews": "285"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/71/9a/46/outside-3.jpg",
     "location_id": "472022",
     "name": "Fort Qaitbey",
-    "num_reviews": "1101",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -3349,14 +3348,14 @@
       "address": "29 88545 N 31. 21372 E, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Historic Sites"]
+    "activityDesctiptor": ["Historic Sites"],
+    "numberOfReviews": "1101"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/17/da/a0/an-outside-entrance-to.jpg",
     "location_id": "307781",
     "name": "Catacombs of Kom el Shoqafa",
-    "num_reviews": "720",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -4197,14 +4196,14 @@
       "address": "Kom Al Shokafa, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Ancient Ruins"]
+    "activityDesctiptor": ["Ancient Ruins"],
+    "numberOfReviews": "720"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/13/25/8a/d4/location.jpg",
     "location_id": "550320",
     "name": "Montazah Gardens",
-    "num_reviews": "921",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -5027,14 +5026,14 @@
       "address": "Montaza Palace Al Mandarah Bahri, Qism El-Montaza, Alexandria 21599 Egypt"
     },
     "activities": ["Nature & Parks"],
-    "activityDesctiptor": ["Gardens"]
+    "activityDesctiptor": ["Gardens"],
+    "numberOfReviews": "921"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/00/13/df/bf/bibliotheca-alexandrina.jpg",
     "location_id": "459934",
     "name": "Bibliotheca Alexandrina",
-    "num_reviews": "1826",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -5863,14 +5862,14 @@
       "Architectural Buildings",
       "Libraries",
       "Art Museums"
-    ]
+    ],
+    "numberOfReviews": "1826"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/16/ad/14/58/auditorium-at-kom-el.jpg",
     "location_id": "553291",
     "name": "Ancient Roman Amphitheater",
-    "num_reviews": "428",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -6708,14 +6707,14 @@
       "address": "Ismail Mahana Road Kom El Dekka Gharb, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Ancient Ruins"]
+    "activityDesctiptor": ["Ancient Ruins"],
+    "numberOfReviews": "428"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/08/fa/ca/03/royal-jewelry-museum.jpg",
     "location_id": "1997633",
     "name": "Royal Jewelry Museum",
-    "num_reviews": "220",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -7555,14 +7554,14 @@
       "address": "21 Ahmed Yehia Street Zizinia, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["Specialty Museums"]
+    "activityDesctiptor": ["Specialty Museums"],
+    "numberOfReviews": "220"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/08/f0/a5/39/corniche.jpg",
     "location_id": "469370",
     "name": "Corniche",
-    "num_reviews": "672",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -8349,14 +8348,14 @@
       "address": "Alexandria Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Piers & Boardwalks"]
+    "activityDesctiptor": ["Piers & Boardwalks"],
+    "numberOfReviews": "672"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/06/16/4b/97/lovely-beach.jpg",
     "location_id": "1936902",
     "name": "Mamoura Beach",
-    "num_reviews": "88",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -9163,14 +9162,14 @@
       "address": "Alexandria Egypt"
     },
     "activities": ["Nature & Parks", "Outdoor Activities"],
-    "activityDesctiptor": ["Beaches"]
+    "activityDesctiptor": ["Beaches"],
+    "numberOfReviews": "88"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/13/33/60/3a/sarapeum-serapeion.jpg",
     "location_id": "472314",
     "name": "Sarapeum (Serapeion)",
-    "num_reviews": "67",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -9983,14 +9982,14 @@
       "address": "Alexandria Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Ancient Ruins"]
+    "activityDesctiptor": ["Ancient Ruins"],
+    "numberOfReviews": "67"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/56/a4/de/el-kobba-el-samaweya.jpg",
     "location_id": "3849293",
     "name": "El Kobba El Samaweya",
-    "num_reviews": "53",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -10748,14 +10747,14 @@
       "address": "Port Said St. El Shatby, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["History Museums"]
+    "activityDesctiptor": ["History Museums"],
+    "numberOfReviews": "53"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/24/f2/70/97/caption.jpg",
     "location_id": "3720963",
     "name": "Cavafy Museum",
-    "num_reviews": "38",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -11516,14 +11515,14 @@
       "address": "6 Sharm El Sheikh St. Off Istanbul St. Raml Station, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["Specialty Museums"]
+    "activityDesctiptor": ["Specialty Museums"],
+    "numberOfReviews": "38"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/08/d6/30/31/it-is-a-new-mall-with.jpg",
     "location_id": "8591698",
     "name": "Orouba Mall",
-    "num_reviews": "28",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -12278,14 +12277,14 @@
       "address": "North Coast Rd Borg El-Arab Airport, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping"],
-    "activityDesctiptor": ["Shopping Malls"]
+    "activityDesctiptor": ["Shopping Malls"],
+    "numberOfReviews": "28"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/f1/3c/f6/deir-mar-mina-st-mina.jpg",
     "location_id": "1047716",
     "name": "Deir Mar Mina (St. Mina Monastery)",
-    "num_reviews": "42",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -13039,14 +13038,14 @@
       "Sacred & Religious Sites",
       "Monuments & Statues",
       "Historic Sites"
-    ]
+    ],
+    "numberOfReviews": "42"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/1e/40/b3/inside-of-saint-mark.jpg",
     "location_id": "12423300",
     "name": "Saint Mark's Coptic Orthodox Cathedral",
-    "num_reviews": "33",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -13872,14 +13871,14 @@
       "address": "19 Qesm Al Attarin, Alexandria Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Churches & Cathedrals"]
+    "activityDesctiptor": ["Churches & Cathedrals"],
+    "numberOfReviews": "33"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/a3/7e/73/tower.jpg",
     "location_id": "469562",
     "name": "Pompey's Pillar",
-    "num_reviews": "487",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -14705,14 +14704,14 @@
       "address": "Al Karah WA at Toubageyah WA Kafr Al Ghates, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Monuments & Statues", "Ancient Ruins"]
+    "activityDesctiptor": ["Monuments & Statues", "Ancient Ruins"],
+    "numberOfReviews": "487"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/fd/f8/6e/king-farouk-palace2.jpg",
     "location_id": "307782",
     "name": "King Farouk Palace",
-    "num_reviews": "239",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -15522,14 +15521,14 @@
     ],
     "location": { "coordiantes": [null, null], "address": "Alexandria Egypt" },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Historic Sites"]
+    "activityDesctiptor": ["Historic Sites"],
+    "numberOfReviews": "239"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/a8/9b/a7/inside-extended-part.jpg",
     "location_id": "550650",
     "name": "Mosque of Abu al-Abbas al-Mursi",
-    "num_reviews": "169",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -16360,14 +16359,14 @@
     "activityDesctiptor": [
       "Sacred & Religious Sites",
       "Architectural Buildings"
-    ]
+    ],
+    "numberOfReviews": "169"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/80/50/88/alexandria-zoo.jpg",
     "location_id": "8029094",
     "name": "Alexandria Zoo",
-    "num_reviews": "30",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -17130,14 +17129,14 @@
       "address": "Qism Sidi Gabir Smouha, oppositie to Smouha Hospital, Alexandria 21599 Egypt"
     },
     "activities": ["Water & Amusement Parks"],
-    "activityDesctiptor": ["Theme Parks"]
+    "activityDesctiptor": ["Theme Parks"],
+    "numberOfReviews": "30"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/0b/58/40/00/ancient-masjed.jpg",
     "location_id": "3384272",
     "name": "El Qaed Ibrahim Mosque",
-    "num_reviews": "38",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -17912,14 +17911,14 @@
       "address": "Mahtet El Raml Square, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Sacred & Religious Sites"]
+    "activityDesctiptor": ["Sacred & Religious Sites"],
+    "numberOfReviews": "38"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/04/cf/f6/17/alexandria-unknown-naval.jpg",
     "location_id": "4700597",
     "name": "Alexandria Unknown Naval Soldier Memorial",
-    "num_reviews": "106",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -18747,14 +18746,14 @@
       "address": "Alexandria Corniche, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Points of Interest & Landmarks"]
+    "activityDesctiptor": ["Points of Interest & Landmarks"],
+    "numberOfReviews": "106"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/01/5d/2c/3e/sphinx-at-mustafa-kamel.jpg",
     "location_id": "1601616",
     "name": "Mustafa Kamel Necropolis",
-    "num_reviews": "23",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -19515,14 +19514,14 @@
       "address": "El Moaaskar El Romani, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Historic Sites"]
+    "activityDesctiptor": ["Historic Sites"],
+    "numberOfReviews": "23"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/95/b1/96/caption.jpg",
     "location_id": "7279112",
     "name": "Alexandria Opera House",
-    "num_reviews": "22",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -20316,14 +20315,14 @@
       "address": "22 El Horreya Rd._ Raml Station, Alexandria Egypt"
     },
     "activities": ["Concerts & Shows"],
-    "activityDesctiptor": ["Operas"]
+    "activityDesctiptor": ["Operas"],
+    "numberOfReviews": "22"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/10/aa/b2/10/ta-img-20170915-172831.jpg",
     "location_id": "12839275",
     "name": "St. Catherine's Cathedral",
-    "num_reviews": "12",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -20955,14 +20954,14 @@
       "Sacred & Religious Sites",
       "Churches & Cathedrals",
       "Architectural Buildings"
-    ]
+    ],
+    "numberOfReviews": "12"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/90/5a/7e/side-view.jpg",
     "location_id": "3384275",
     "name": "Al Muntaza Mosque",
-    "num_reviews": "20",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -21733,14 +21732,14 @@
       "address": "King Saleh Street, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Sacred & Religious Sites"]
+    "activityDesctiptor": ["Sacred & Religious Sites"],
+    "numberOfReviews": "20"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/04/be/cc/2d/center-garden.jpg",
     "location_id": "3847229",
     "name": "Antoniades Garden",
-    "num_reviews": "31",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -22504,14 +22503,14 @@
       "address": "Albeirt El Awal st. Semouha, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["History Museums"]
+    "activityDesctiptor": ["History Museums"],
+    "numberOfReviews": "31"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/05/61/de/17/aquarium-museum.jpg",
     "location_id": "3838091",
     "name": "Aquarium Museum",
-    "num_reviews": "73",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -23283,14 +23282,14 @@
       "address": "Qaitbay St. El Anfoushi, Alexandria 21599 Egypt"
     },
     "activities": ["Zoos & Aquariums", "Nature & Parks"],
-    "activityDesctiptor": ["Aquariums"]
+    "activityDesctiptor": ["Aquariums"],
+    "numberOfReviews": "73"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/12/94/b6/eb/museum-of-fine-arts-alexandria.jpg",
     "location_id": "3721059",
     "name": "The Fine Arts Museum",
-    "num_reviews": "11",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -23869,14 +23868,14 @@
       "address": "1 Menasha St. Moharram Bey, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["Art Museums"]
+    "activityDesctiptor": ["Art Museums"],
+    "numberOfReviews": "11"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/0b/95/ec/dc/sidi-bishr-mosque.jpg",
     "location_id": "4699338",
     "name": "Sidi Bishr Mosque",
-    "num_reviews": "20",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -24627,14 +24626,14 @@
       "address": "El Geish St., Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Points of Interest & Landmarks"]
+    "activityDesctiptor": ["Points of Interest & Landmarks"],
+    "numberOfReviews": "20"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/1e/39/69/photo3jpg.jpg",
     "location_id": "3824940",
     "name": "El Shona Art Centre & Museums",
-    "num_reviews": "8",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -25091,14 +25090,14 @@
       "address": "Km 20, Alex Matrou Desert Rd. Agami, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["Art Museums"]
+    "activityDesctiptor": ["Art Museums"],
+    "numberOfReviews": "8"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/14/e8/3b/02/diving-cleopatra-s-palace.jpg",
     "location_id": "12725452",
     "name": "Sub Marine Diving Center",
-    "num_reviews": "5",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -25439,14 +25438,14 @@
       "Water Sports",
       "Boat Tours",
       "Scuba & Snorkeling"
-    ]
+    ],
+    "numberOfReviews": "5"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/a6/2e/46/mahmoud-said-museum.jpg",
     "location_id": "3720966",
     "name": "Mahmoud Said Museum",
-    "num_reviews": "7",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -25877,14 +25876,14 @@
       "address": "6 Mohamed Pasha Said St. Ganaklis, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["Specialty Museums"]
+    "activityDesctiptor": ["Specialty Museums"],
+    "numberOfReviews": "7"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/95/b3/cf/caption.jpg",
     "location_id": "554148",
     "name": "Anfushi Tombs",
-    "num_reviews": "10",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -26418,14 +26417,14 @@
     ],
     "location": { "coordiantes": [null, null], "address": "Alexandria Egypt" },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Ancient Ruins"]
+    "activityDesctiptor": ["Ancient Ruins"],
+    "numberOfReviews": "10"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "550652",
     "name": "Deir Anba Bishoi",
-    "num_reviews": "18",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/550652",
@@ -27164,14 +27163,14 @@
     "activityDesctiptor": [
       "Sacred & Religious Sites",
       "Architectural Buildings"
-    ]
+    ],
+    "numberOfReviews": "18"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/01/5d/2c/94/chatby-tombs-below-ground.jpg",
     "location_id": "1601592",
     "name": "Chatby Tombs",
-    "num_reviews": "21",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -27946,14 +27945,14 @@
       "address": "Port Said Sreet, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Historic Sites"]
+    "activityDesctiptor": ["Historic Sites"],
+    "numberOfReviews": "21"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/14/90/15/9f/taverna-aquacity.jpg",
     "location_id": "8377321",
     "name": "Taverna Aquacity",
-    "num_reviews": "8",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -28405,14 +28404,14 @@
       "address": "Km 44 Alexandria - Cairo Desert road, Alexandria 21599 Egypt"
     },
     "activities": ["Water & Amusement Parks"],
-    "activityDesctiptor": ["Water Parks"]
+    "activityDesctiptor": ["Water Parks"],
+    "numberOfReviews": "8"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-w/26/d3/36/30/caption.jpg",
     "location_id": "7951381",
     "name": "The Monastery of St. Macarius",
-    "num_reviews": "10",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -28989,14 +28988,14 @@
       "Historic Sites",
       "Sacred & Religious Sites",
       "Historic Walking Areas"
-    ]
+    ],
+    "numberOfReviews": "10"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/25/fc/70/99/gigachad.jpg",
     "location_id": "3805796",
     "name": "Eliahu Hanady Synagogue",
-    "num_reviews": "11",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -29605,14 +29604,14 @@
       "address": "69 El Nabi Daniel St. Raml Station, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["History Museums"]
+    "activityDesctiptor": ["History Museums"],
+    "numberOfReviews": "11"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/57/d7/93/caption.jpg",
     "location_id": "3384281",
     "name": "Ahmad Salem Mosque",
-    "num_reviews": "6",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -29714,14 +29713,14 @@
       "address": "Al Fath Street In Front of Petrol Hospital, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Sacred & Religious Sites"]
+    "activityDesctiptor": ["Sacred & Religious Sites"],
+    "numberOfReviews": "6"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3803262",
     "name": "Bahgat Gallery",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3803262",
@@ -29787,14 +29786,14 @@
       "address": "12 Omar Zaafan St. El Ibrahimeya, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping", "Museums"],
-    "activityDesctiptor": ["Art Galleries"]
+    "activityDesctiptor": ["Art Galleries"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "10244233",
     "name": "ElMadina Arts",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/10244233",
@@ -29863,14 +29862,14 @@
       "address": "6 Fouad St, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks", "Other"],
-    "activityDesctiptor": ["Neighborhoods"]
+    "activityDesctiptor": ["Neighborhoods"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3784854",
     "name": "Degas For Fine Art",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3784854",
@@ -29937,14 +29936,14 @@
       "address": "46 Edmon Fermon St. Semouha, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping", "Museums"],
-    "activityDesctiptor": ["Art Galleries"]
+    "activityDesctiptor": ["Art Galleries"],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "5601839",
     "name": "Monastery of Holy Virgin Mary",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/5601839",
@@ -30012,14 +30011,14 @@
       "address": "Deir El- Ganadla village, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Points of Interest & Landmarks"]
+    "activityDesctiptor": ["Points of Interest & Landmarks"],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/45/9b/40/caption.jpg",
     "location_id": "6412310",
     "name": "Saint Demiana",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -30122,14 +30121,14 @@
       "address": "Alexandria road, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Points of Interest & Landmarks"]
+    "activityDesctiptor": ["Points of Interest & Landmarks"],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1b/62/ac/73/san-stefano-alexandria.jpg",
     "location_id": "18313153",
     "name": "San Stefano Grand Plaza",
-    "num_reviews": "8",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -30280,14 +30279,14 @@
       "address": "El-Gaish Road, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping"],
-    "activityDesctiptor": ["Shopping Malls"]
+    "activityDesctiptor": ["Shopping Malls"],
+    "numberOfReviews": "8"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3802315",
     "name": "El Prince Serour",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3802315",
@@ -30354,14 +30353,14 @@
       "address": "31 Mostafa Kamel St. Semouha, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping", "Museums"],
-    "activityDesctiptor": ["Art Galleries"]
+    "activityDesctiptor": ["Art Galleries"],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/57/44/da/hi-this-is-a-picture.jpg",
     "location_id": "3802314",
     "name": "Gallery Alex Creation",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -30464,14 +30463,14 @@
       "address": "34 Saint Giny St. Roushdy, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping", "Museums"],
-    "activityDesctiptor": ["Art Galleries"]
+    "activityDesctiptor": ["Art Galleries"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3805805",
     "name": "Mohamed El Masry Gallery",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3805805",
@@ -30538,14 +30537,14 @@
       "address": "26 Sidi El Metwaly St. El Attarin, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping", "Museums"],
-    "activityDesctiptor": ["Art Galleries"]
+    "activityDesctiptor": ["Art Galleries"],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/17/50/25/ff/caption.jpg",
     "location_id": "16962913",
     "name": "Ramses Tours",
-    "num_reviews": "290",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -30727,14 +30726,14 @@
       "Private Tours",
       "Day Trips",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "290"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/18/13/fd/09/caption.jpg",
     "location_id": "17666274",
     "name": "Tour Egypt",
-    "num_reviews": "77",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -30881,14 +30880,14 @@
     "reviews": [],
     "location": { "coordiantes": [null, null], "address": "Alexandria Egypt" },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "77"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/16/39/e8/c1/caption.jpg",
     "location_id": "15848050",
     "name": "Mirette Tours",
-    "num_reviews": "34",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -31065,14 +31064,14 @@
       "address": "El Gesh, Alexandria 21599 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "34"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/12/7f/b0/ac/nasco-tours-logo.jpg",
     "location_id": "2177803",
     "name": "NASCO Tours",
-    "num_reviews": "141",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -31254,14 +31253,14 @@
       "Private Tours",
       "Bus Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "141"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/ca/47/3f/emo-tours-egypt.jpg",
     "location_id": "1725002",
     "name": "Emo Tours Egypt",
-    "num_reviews": "347",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -31457,14 +31456,14 @@
       "Private Tours",
       "Sightseeing Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "347"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/b0/1e/54/osiris-tours.jpg",
     "location_id": "10438680",
     "name": "Osiris Tours",
-    "num_reviews": "471",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -31592,14 +31591,14 @@
       "Sightseeing Tours",
       "Cultural Tours",
       "Historical & Heritage Tours"
-    ]
+    ],
+    "numberOfReviews": "471"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/a5/99/96/travelish-tours-logo.jpg",
     "location_id": "13136186",
     "name": "Travelish Tours",
-    "num_reviews": "200",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -31799,14 +31798,14 @@
       "Sightseeing Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "200"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/21/69/16/c3/caption.jpg",
     "location_id": "23757650",
     "name": "Emo Tours Egypt",
-    "num_reviews": "28",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -32004,14 +32003,14 @@
       "Taxis & Shuttles",
       "Walking Tours",
       "Horseback Riding Tours"
-    ]
+    ],
+    "numberOfReviews": "28"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/c2/2a/38/ramasside-tours-headoffice.jpg",
     "location_id": "2706184",
     "name": "Ramasside Tours",
-    "num_reviews": "600",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -32175,14 +32174,14 @@
       "Sightseeing Tours",
       "Private Tours",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "600"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/7c/81/ec/alex-city-travel-private.jpg",
     "location_id": "2615654",
     "name": "Alex City Travel - Day Tours",
-    "num_reviews": "105",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -32303,14 +32302,14 @@
       "Historical & Heritage Tours",
       "Boat Tours",
       "Shopping Tours"
-    ]
+    ],
+    "numberOfReviews": "105"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/27/b9/2e/09/caption.jpg",
     "location_id": "25261108",
     "name": "feby tour guide",
-    "num_reviews": "9",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -32415,14 +32414,14 @@
       "address": "Alexandria Ibrahimia, Alexandria 21599 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Private Tours", "Day Trips"],
+    "numberOfReviews": "9"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/18/09/a7/60/escape-room-alexandria.jpg",
     "location_id": "10177857",
     "name": "Escape room Alexandria",
-    "num_reviews": "16",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -32562,14 +32561,14 @@
       "address": "696 Abou Quer, Alexandria 21599 Egypt"
     },
     "activities": ["Fun & Games"],
-    "activityDesctiptor": ["Room Escape Games"]
+    "activityDesctiptor": ["Room Escape Games"],
+    "numberOfReviews": "16"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/19/56/e7/d6/lobby.jpg",
     "location_id": "16867987",
     "name": "Alienz Gamerz VR",
-    "num_reviews": "9",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -32687,14 +32686,14 @@
       "address": "506A Abu Quir Street, Alexandria 21599 Egypt"
     },
     "activities": ["Fun & Games"],
-    "activityDesctiptor": ["Room Escape Games", "Game & Entertainment Centers"]
+    "activityDesctiptor": ["Room Escape Games", "Game & Entertainment Centers"],
+    "numberOfReviews": "9"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/16/e4/b1/61/caption.jpg",
     "location_id": "16869292",
     "name": "Amwag Tours",
-    "num_reviews": "8",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -32887,14 +32886,14 @@
       "Self-Guided Tours & Rentals",
       "Air Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "8"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/5b/65/5d/caption.jpg",
     "location_id": "21503058",
     "name": "Ancient Egypt Tours",
-    "num_reviews": "11",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -33090,14 +33089,14 @@
       "Private Tours",
       "Day Trips",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "11"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/7e/66/b6/hydro-pool-premedion.jpg",
     "location_id": "23025246",
     "name": "Premedion Health & Wellbeing",
-    "num_reviews": "5",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -33219,14 +33218,14 @@
       "Health/Fitness Clubs & Gyms",
       "Spas",
       "Hammams & Turkish Baths"
-    ]
+    ],
+    "numberOfReviews": "5"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/05/75/c5/95/the-spa-at-four-seasons.jpg",
     "location_id": "5605828",
     "name": "The Spa at Four Seasons Hotel Alexandria",
-    "num_reviews": "14",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -33344,14 +33343,14 @@
       "address": "399 El Geish Road Four Seasons Hotel Alexandria at San Stefano, Alexandria 21599 Egypt"
     },
     "activities": ["Spas & Wellness"],
-    "activityDesctiptor": ["Health/Fitness Clubs & Gyms", "Spas"]
+    "activityDesctiptor": ["Health/Fitness Clubs & Gyms", "Spas"],
+    "numberOfReviews": "14"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/16/2f/a7/0d/caption.jpg",
     "location_id": "21211824",
     "name": "Jojo Tours",
-    "num_reviews": "9",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -33519,14 +33518,14 @@
       "Private Tours",
       "Day Trips",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "9"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/36/6b/ab/camel-ride-into-the-pyramids.jpg",
     "location_id": "1966809",
     "name": "Best Egypt Shore Excursions",
-    "num_reviews": "38",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -33636,14 +33635,14 @@
       "address": "120 Tut Ank Amun street Smouha, Alexandria 5858 Egypt"
     },
     "activities": ["Tours"],
-    "activityDesctiptor": ["Sightseeing Tours"]
+    "activityDesctiptor": ["Sightseeing Tours"],
+    "numberOfReviews": "38"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/08/c8/43/3b/very-nice-shopping-mall.jpg",
     "location_id": "8559880",
     "name": "City Centre Alexandria",
-    "num_reviews": "41",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -33824,14 +33823,14 @@
       "Antique Stores",
       "Department Stores",
       "Factory Outlets"
-    ]
+    ],
+    "numberOfReviews": "41"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/a5/db/5a/caption.jpg",
     "location_id": "23162187",
     "name": "Nice tours",
-    "num_reviews": "23",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -33942,14 +33941,14 @@
       "Adrenaline & Extreme Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "23"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/26/e1/c4/28/statue-of-saad-pasha.jpg",
     "location_id": "23034562",
     "name": "Statue Of Saad Pasha Zaghloul",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -34051,14 +34050,14 @@
       "address": "Saad Zaghloul Square, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Monuments & Statues"]
+    "activityDesctiptor": ["Monuments & Statues"],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/16/a0/c9/07/senior-travelers-enjoying.jpg",
     "location_id": "16730730",
     "name": "Egypt Tailor Made",
-    "num_reviews": "3",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -34179,14 +34178,14 @@
       "Multi-day Tours",
       "Photography Tours",
       "Food Tours"
-    ]
+    ],
+    "numberOfReviews": "3"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/e1/49/ff/king-tut.jpg",
     "location_id": "2665201",
     "name": "RTS El-Raghy Travel Services",
-    "num_reviews": "11",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -34334,14 +34333,14 @@
       "Private Tours",
       "Sightseeing Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "11"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/18/11/dd/underwater.jpg",
     "location_id": "3158277",
     "name": "Snorkeling at Sharm El Sheikh",
-    "num_reviews": "6",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -34461,14 +34460,14 @@
       "address": "63, Nebi Daniel, Alexandria 00000 Egypt"
     },
     "activities": ["Tours", "Boat Tours & Water Sports", "Outdoor Activities"],
-    "activityDesctiptor": ["Scuba & Snorkeling"]
+    "activityDesctiptor": ["Scuba & Snorkeling"],
+    "numberOfReviews": "6"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/99/4b/29/caption.jpg",
     "location_id": "23129588",
     "name": "Hub AdventureR - Travel Agency",
-    "num_reviews": "3",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -34625,14 +34624,14 @@
       "Day Trips",
       "Kayaking & Canoeing",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "3"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1a/7b/5c/8b/caption.jpg",
     "location_id": "19791955",
     "name": "Egypt Sunrise - Alexandria",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -34749,14 +34748,14 @@
       "Boat Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/21/57/cf/11/caption.jpg",
     "location_id": "23738836",
     "name": "Karma Travel Club",
-    "num_reviews": "3",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -34906,14 +34905,14 @@
       "Private Tours",
       "Nature & Wildlife Tours",
       "Bus Tours"
-    ]
+    ],
+    "numberOfReviews": "3"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/03/d8/78/caption.jpg",
     "location_id": "21291539",
     "name": "Egypt Alexandria day tour",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -35018,14 +35017,14 @@
       "address": "Tomanbay El Zaiton, Alexandria 11725 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "10811464",
     "name": "Trapped egypt - Alexandria",
-    "num_reviews": "3",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/10811464",
@@ -35129,14 +35128,14 @@
       "address": "7 El Nahda Street, Alexandria 21599 Egypt"
     },
     "activities": ["Fun & Games"],
-    "activityDesctiptor": ["Room Escape Games"]
+    "activityDesctiptor": ["Room Escape Games"],
+    "numberOfReviews": "3"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/17/03/13/a8/caption.jpg",
     "location_id": "17146394",
     "name": "Cleopatra Egypt tours",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -35277,14 +35276,14 @@
       "Photography Tours",
       "Day Trips",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-w/17/25/ea/61/photo0jpg.jpg",
     "location_id": "11836080",
     "name": "Brazilian Coffee San Stefano",
-    "num_reviews": "5",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -35405,14 +35404,14 @@
       "Cooking Classes",
       "Food Tours",
       "Coffee & Tea Tours"
-    ]
+    ],
+    "numberOfReviews": "5"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/03/c8/08/d7/egypt-shore-excursions.jpg",
     "location_id": "3780599",
     "name": "Egypt Shore Excursions",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -35517,14 +35516,14 @@
       "address": "53 Garden City Semoha, Alexandria 21599 Egypt"
     },
     "activities": ["Tours"],
-    "activityDesctiptor": ["Sightseeing Tours"]
+    "activityDesctiptor": ["Sightseeing Tours"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1b/98/28/f5/caption.jpg",
     "location_id": "21147620",
     "name": "Uopera tours",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -35630,14 +35629,14 @@
       "address": "Ul. Komsomola, Dom 41, C.a, Kv./of 618 Office 618, Alexandria 195009 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1d/9b/70/d1/caption.jpg",
     "location_id": "23593026",
     "name": "Sun Pyramids VIP Tours",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -35756,14 +35755,14 @@
       "address": "67 El Haram St., Alexandria 12511 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/03/ab/0d/37/sawa4-day-tours.jpg",
     "location_id": "3439274",
     "name": "Sawa4 Day Tours",
-    "num_reviews": "3",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -35868,14 +35867,14 @@
       "address": "7 Tahreer Square, Alexandria 85951 Egypt"
     },
     "activities": ["Tours"],
-    "activityDesctiptor": ["Sightseeing Tours"]
+    "activityDesctiptor": ["Sightseeing Tours"],
+    "numberOfReviews": "3"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "20130108",
     "name": "Alexandra Shore Excursion Tour & Packages",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/20130108",
@@ -35950,14 +35949,14 @@
       "Cultural Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/19/81/eb/c0/exclusive-products.jpg",
     "location_id": "19102581",
     "name": "Leo Nail and Beauty Spa",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -36074,14 +36073,14 @@
       "address": "137A San Stefano Mall, 1st floor, Alexandria 21599 Egypt"
     },
     "activities": ["Spas & Wellness"],
-    "activityDesctiptor": ["Spas"]
+    "activityDesctiptor": ["Spas"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/26/89/1d/ab/caption.jpg",
     "location_id": "19757345",
     "name": "Getty Trips",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -36206,14 +36205,14 @@
       "Cultural Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/80/46/d8/20210104-103341-largejpg.jpg",
     "location_id": "23035318",
     "name": "El Sa'a Square",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -36315,14 +36314,14 @@
       "address": "125 El-Horeya Rd, Al Azaritah WA Ash Shatebi, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Historic Walking Areas"]
+    "activityDesctiptor": ["Historic Walking Areas"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "4368353",
     "name": "A1 Egypt Day Tours by Haisam - Day Tours",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/4368353",
@@ -36391,14 +36390,14 @@
       "address": "El Montaza, 11 Gamal Abd El Nasir Street, Alexandria 003 Egypt"
     },
     "activities": ["Tours"],
-    "activityDesctiptor": ["Sightseeing Tours", "Private Tours"]
+    "activityDesctiptor": ["Sightseeing Tours", "Private Tours"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "10811476",
     "name": "Doors Escape Room",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/10811476",
@@ -36479,14 +36478,14 @@
       "address": "2 Bek Street, Alexandria 21599 Egypt"
     },
     "activities": ["Fun & Games"],
-    "activityDesctiptor": ["Game & Entertainment Centers"]
+    "activityDesctiptor": ["Game & Entertainment Centers"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/e5/58/3d/alegria-nightlife.jpg",
     "location_id": "6352833",
     "name": "alegria",
-    "num_reviews": "3",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -36589,14 +36588,14 @@
       "address": "Acacia St. Moharram Bey, Alexandria Beside Acacia Resort, Alexandria 21599 Egypt"
     },
     "activities": ["Nightlife"],
-    "activityDesctiptor": ["Bars & Clubs"]
+    "activityDesctiptor": ["Bars & Clubs"],
+    "numberOfReviews": "3"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/7f/b8/93/20210103-162125-largejpg.jpg",
     "location_id": "15669287",
     "name": "Mohamed Ali Pasha Statue",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -36711,14 +36710,14 @@
       "address": "13 Alexandria Desert Rd, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Monuments & Statues"]
+    "activityDesctiptor": ["Monuments & Statues"],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1b/2b/00/64/caption.jpg",
     "location_id": "20326037",
     "name": "Family Tours",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -36843,14 +36842,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/17/16/24/1b/caption.jpg",
     "location_id": "17291676",
     "name": "action tours",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -36961,14 +36960,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "12952855",
     "name": "Renaissance Cinema St. Stefano",
-    "num_reviews": "2",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/12952855",
@@ -37049,14 +37048,14 @@
       "address": "El-Gaish Rd, Alexandria 21599 Egypt"
     },
     "activities": ["Fun & Games"],
-    "activityDesctiptor": ["Movie Theaters"]
+    "activityDesctiptor": ["Movie Theaters"],
+    "numberOfReviews": "2"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/03/f0/c6/42/classena-travel.jpg",
     "location_id": "4221124",
     "name": "Classena Travel",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -37161,14 +37160,14 @@
       "address": "13 El Bikbashi Mahmoud El Esawi Sidi Beshr, Alexandria 21599 Egypt"
     },
     "activities": ["Tours"],
-    "activityDesctiptor": ["Sightseeing Tours"]
+    "activityDesctiptor": ["Sightseeing Tours"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0b/bc/cc/87/getlstd-property-photo.jpg",
     "location_id": "10491717",
     "name": "Egypt Tours 4all",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -37276,14 +37275,14 @@
       "City Tours",
       "Sightseeing Tours",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "4741165",
     "name": "Kikha",
-    "num_reviews": "1",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/4741165",
@@ -37349,14 +37348,14 @@
       "address": "Ahmed Shawki Street, Alexandria 21599 Egypt"
     },
     "activities": ["Nightlife"],
-    "activityDesctiptor": ["Bars & Clubs"]
+    "activityDesctiptor": ["Bars & Clubs"],
+    "numberOfReviews": "1"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/97/91/65/cleopatra-boat-at-the.jpg",
     "location_id": "4236620",
     "name": "Alexandra Dive",
-    "num_reviews": "11",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -37472,14 +37471,14 @@
     "reviews": [],
     "location": { "coordiantes": [null, null], "address": "Alexandria Egypt" },
     "activities": ["Tours", "Boat Tours & Water Sports", "Outdoor Activities"],
-    "activityDesctiptor": ["Scuba & Snorkeling"]
+    "activityDesctiptor": ["Scuba & Snorkeling"],
+    "numberOfReviews": "11"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/28/55/41/1c/caption.jpg",
     "location_id": "25340160",
     "name": "Bella Tours Alexandria",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -37575,14 +37574,14 @@
       "address": "Mubarak6 Mubarak 6, Alexandria 00202 Egypt"
     },
     "activities": ["Tours", "Other", "Transportation"],
-    "activityDesctiptor": ["Multi-day Tours", "Taxis & Shuttles", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Taxis & Shuttles", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/28/57/42/cb/caption.jpg",
     "location_id": "25342887",
     "name": "Graceway Alexandria",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -37684,14 +37683,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/cd/fa/1c/credo.jpg",
     "location_id": "4431239",
     "name": "CREDO",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -37808,14 +37807,14 @@
       "address": "262 Gamal Abd El-Nasir Rd. Miami, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping"],
-    "activityDesctiptor": ["Gift & Specialty Shops"]
+    "activityDesctiptor": ["Gift & Specialty Shops"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "25368310",
     "name": "Mamlaket El-arossa Beauty Center",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/25368310",
@@ -37885,14 +37884,14 @@
       "address": "El-galaa Street 28, Alexandria Egypt"
     },
     "activities": ["Spas & Wellness"],
-    "activityDesctiptor": ["Spas"]
+    "activityDesctiptor": ["Spas"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/28/59/15/b1/caption.jpg",
     "location_id": "25344533",
     "name": "EgyptTravel4u",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -37988,14 +37987,14 @@
       "address": "12st Qasr ElNile Down Town, Alexandria 113211 Egypt"
     },
     "activities": ["Tours", "Other", "Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles", "Bus Tours", "Day Trips"]
+    "activityDesctiptor": ["Taxis & Shuttles", "Bus Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/27/37/d4/a9/caption.jpg",
     "location_id": "25190402",
     "name": "rana",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -38124,14 +38123,14 @@
       "Boat Tours & Water Sports",
       "Outdoor Activities"
     ],
-    "activityDesctiptor": ["Scuba & Snorkeling", "Shark Diving", "Boat Tours"]
+    "activityDesctiptor": ["Scuba & Snorkeling", "Shark Diving", "Boat Tours"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/27/b9/63/ff/caption.jpg",
     "location_id": "25251025",
     "name": "Allover Egypt Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -38248,14 +38247,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/3b/77/d2/pyramids-and-sphinex.jpg",
     "location_id": "2447465",
     "name": "Best Shore Trips",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -38357,14 +38356,14 @@
     "reviews": [],
     "location": { "coordiantes": [null, null], "address": "Alexandria Egypt" },
     "activities": ["Tours"],
-    "activityDesctiptor": ["Sightseeing Tours"]
+    "activityDesctiptor": ["Sightseeing Tours"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "12419674",
     "name": "Goldeneyes Tours & Transport",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/12419674",
@@ -38442,14 +38441,14 @@
     "reviews": [],
     "location": { "coordiantes": [null, null], "address": "Alexandria Egypt" },
     "activities": ["Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles"]
+    "activityDesctiptor": ["Taxis & Shuttles"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/27/37/1e/02/caption.jpg",
     "location_id": "25189620",
     "name": "Egypt Best Tours - Alexandria",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -38550,14 +38549,14 @@
       "Historical & Heritage Tours",
       "Private Tours",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/26/b8/b8/11/caption.jpg",
     "location_id": "25129788",
     "name": "Opatrip.com Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -38652,14 +38651,14 @@
       "address": "Gyneju g. 14-56, Alexandria 09215 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Walking Tours"]
+    "activityDesctiptor": ["Walking Tours"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/26/b3/46/76/caption.jpg",
     "location_id": "25129606",
     "name": "Over day to Alexandria",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -38768,14 +38767,14 @@
       "address": "Sheikh Zayed, Alexandria 12588 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "24029366",
     "name": "Hamam El Saraya",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/24029366",
@@ -38833,14 +38832,14 @@
       "address": "Alexandria Egypt"
     },
     "activities": ["Spas & Wellness"],
-    "activityDesctiptor": ["Spas"]
+    "activityDesctiptor": ["Spas"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "25099594",
     "name": "Kids Station",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/25099594",
@@ -38899,14 +38898,14 @@
       "address": "Mohammed Fawzi Moaz Sidi Gaber, Matajer Mall, Alexandria 5432015 Egypt"
     },
     "activities": ["Fun & Games"],
-    "activityDesctiptor": ["Game & Entertainment Centers"]
+    "activityDesctiptor": ["Game & Entertainment Centers"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-w/27/2c/a1/36/caption.jpg",
     "location_id": "25185612",
     "name": "Roma Travel",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39019,14 +39018,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/24/50/e7/97/caption.jpg",
     "location_id": "24146184",
     "name": "Classylimo",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39121,14 +39120,14 @@
       "address": "Sidi beshr, alexandria, Alexandria 21599 Egypt"
     },
     "activities": ["Other", "Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles"]
+    "activityDesctiptor": ["Taxis & Shuttles"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/25/20/27/65/caption.jpg",
     "location_id": "24857945",
     "name": "Seba Tours Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39246,14 +39245,14 @@
       "Private Tours",
       "Day Trips",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/23/66/f6/a0/caption.jpg",
     "location_id": "24062504",
     "name": "Ahlan Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39361,14 +39360,14 @@
       "address": "8 Al Ghorfa Al Togariyya St., Manshiyya First floor, Alexandria 21599 Egypt"
     },
     "activities": ["Classes & Workshops", "Other", "Fun & Games"],
-    "activityDesctiptor": ["Paint & Pottery Studios"]
+    "activityDesctiptor": ["Paint & Pottery Studios"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/27/1d/0a/2d/caption.jpg",
     "location_id": "25179733",
     "name": "Alexandria, Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39463,14 +39462,14 @@
       "address": "1336 N Carolan AVE, Alexandria 94010 Egypt"
     },
     "activities": ["Other", "Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles"]
+    "activityDesctiptor": ["Taxis & Shuttles"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1d/97/3a/f2/caption.jpg",
     "location_id": "23590180",
     "name": "Phantom limousine service",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39572,14 +39571,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/21/aa/9c/46/caption.jpg",
     "location_id": "23809846",
     "name": "El Karma Travel Club",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39695,14 +39694,14 @@
       "Climbing Tours",
       "Hiking & Camping Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1d/8f/f7/b8/caption.jpg",
     "location_id": "23583081",
     "name": "Virtue Day Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39798,14 +39797,14 @@
       "address": "142 Mohamed Anwar El Sadat.pyramid.Giza 7 floor, Alexandria 12518 Egypt"
     },
     "activities": ["Tours", "Other", "Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles", "Day Trips"]
+    "activityDesctiptor": ["Taxis & Shuttles", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/22/5c/5c/96/caption.jpg",
     "location_id": "23932916",
     "name": "Basco Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -39906,14 +39905,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/d8/d5/ed/caption.jpg",
     "location_id": "23311029",
     "name": "cairo 2 day tour",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -40009,14 +40008,14 @@
       "address": "12 sphinx street. Elharam, Alexandria 125600 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1d/52/9b/c4/caption.jpg",
     "location_id": "23525352",
     "name": "this is egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -40184,14 +40183,14 @@
       "address": "67 El Haram St., Alexandria 12511 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/c7/0f/27/caption.jpg",
     "location_id": "23262325",
     "name": "Book Alexandria Tours and Excursions",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -40365,14 +40364,14 @@
       "Night Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/c9/26/df/caption.jpg",
     "location_id": "23268155",
     "name": "Koki Egypt Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -40497,14 +40496,14 @@
       "Walking Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/be/a1/01/caption.jpg",
     "location_id": "23235861",
     "name": "Alexandria Top Things to do",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -40653,14 +40652,14 @@
       "Private Tours",
       "Factory Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1d/1e/a9/5e/caption.jpg",
     "location_id": "23451209",
     "name": "KING OF EGYPT tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -40771,14 +40770,14 @@
       "Boat Rentals",
       "Self-Guided Tours & Rentals",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "23034381",
     "name": "Mosque Attareen",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/23034381",
@@ -40834,14 +40833,14 @@
       "address": "3-33 Al Atarin Mosque, Al Attarin Gharb, Al Attarin, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Sacred & Religious Sites"]
+    "activityDesctiptor": ["Sacred & Religious Sites"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "23034342",
     "name": "Manar El Islam Mosque",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/23034342",
@@ -40897,14 +40896,14 @@
       "address": "Qaitbai Sq., As Sayalah Sharq, Qesm Al Gomrok, Alexandria 21599 Egypt"
     },
     "activities": ["Sights & Landmarks"],
-    "activityDesctiptor": ["Sacred & Religious Sites"]
+    "activityDesctiptor": ["Sacred & Religious Sites"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/2e/92/fb/caption.jpg",
     "location_id": "22994747",
     "name": "Egypt Nice Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41000,14 +40999,14 @@
       "address": "Haram street, Alexandria 11865 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/71/50/6a/caption.jpg",
     "location_id": "22993941",
     "name": "Tui Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41113,14 +41112,14 @@
       "Boat Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/b4/e0/0a/caption.jpg",
     "location_id": "22994752",
     "name": "The Best Dubai",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41221,14 +41220,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/71/7a/7c/caption.jpg",
     "location_id": "22994820",
     "name": "Look At Dubai",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41329,14 +41328,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/86/bf/13/caption.jpg",
     "location_id": "22993945",
     "name": "Tour great",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41442,14 +41441,14 @@
       "Boat Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/c8/6a/04/caption.jpg",
     "location_id": "23014355",
     "name": "Very Nice Holiday",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41550,14 +41549,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/71/5a/49/caption.jpg",
     "location_id": "22994734",
     "name": "Take Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41658,14 +41657,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/9d/d9/5e/caption.jpg",
     "location_id": "23012793",
     "name": "Sure Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41761,14 +41760,14 @@
       "address": "Haram st, Alexandria 12512 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/71/4f/19/caption.jpg",
     "location_id": "22993937",
     "name": "Sheba Tour Company",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -41876,14 +41875,14 @@
       "Boat Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/a0/14/64/caption.jpg",
     "location_id": "22992612",
     "name": "Dubai Holidays",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -42002,14 +42001,14 @@
       "address": "Al-Qaffal Street, Alexandria 51133 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/71/4b/50/caption.jpg",
     "location_id": "22992629",
     "name": "Egypt visit",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -42110,14 +42109,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/71/4d/28/caption.jpg",
     "location_id": "22993932",
     "name": "Balloons first trip",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -42218,14 +42217,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/25/d1/b6/caption.jpg",
     "location_id": "21335830",
     "name": "Lokafy",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -42321,14 +42320,14 @@
       "address": "40 Homewood Avenue Suite 1416, Alexandria M4Y2K2 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Walking Tours"]
+    "activityDesctiptor": ["Walking Tours"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/a0/22/a4/caption.jpg",
     "location_id": "22992237",
     "name": "Get Your Holidays",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -42463,14 +42462,14 @@
       "Multi-day Tours",
       "Taxis & Shuttles",
       "Private Tours"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/71/30/30/caption.jpg",
     "location_id": "22992246",
     "name": "Tips for Traveler",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -42571,14 +42570,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1c/71/42/7b/caption.jpg",
     "location_id": "22992327",
     "name": "Travel To Church",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -42679,14 +42678,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "21508976",
     "name": "Brand Car Limousine",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/21508976",
@@ -42745,14 +42744,14 @@
       "address": "Alexandria 00203 Egypt"
     },
     "activities": ["Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles"]
+    "activityDesctiptor": ["Taxis & Shuttles"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/a0/1d/dc/caption.jpg",
     "location_id": "22992289",
     "name": "Cheap Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -42853,14 +42852,14 @@
       "Taxis & Shuttles",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "21243039",
     "name": "International antiques in egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/21243039",
@@ -42918,14 +42917,14 @@
       "address": "20 Ahmed Morsy Badr St. Off Fouad St Near To El Horreya Center For Creation, Alexandria 00203 Egypt"
     },
     "activities": ["Shopping"],
-    "activityDesctiptor": ["Antique Stores"]
+    "activityDesctiptor": ["Antique Stores"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-w/1a/d5/d3/60/caption.jpg",
     "location_id": "20076572",
     "name": "Fay Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43049,14 +43048,14 @@
       "Cultural Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1b/3b/c1/36/caption.jpg",
     "location_id": "20379935",
     "name": "FKS Co LLC",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43174,14 +43173,14 @@
       "address": "2156 Oak Hollow Dr, Alexandria 17512 Egypt"
     },
     "activities": ["Other", "Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles"]
+    "activityDesctiptor": ["Taxis & Shuttles"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "19965857",
     "name": "Sunrise Tours - Alexandria",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/19965857",
@@ -43272,14 +43271,14 @@
       "Gear Rentals",
       "Boat Rentals",
       "Air Tours"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/5e/be/8a/caption.jpg",
     "location_id": "20046934",
     "name": "Taxi2Airport Alexandria",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43374,14 +43373,14 @@
       "address": "Weteringschans 28, Alexandria 1017 SG Egypt"
     },
     "activities": ["Other", "Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles"]
+    "activityDesctiptor": ["Taxis & Shuttles"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1a/cc/ef/4f/caption.jpg",
     "location_id": "20050064",
     "name": "Egypt Attractions Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43477,14 +43476,14 @@
       "address": "6 Sphinx st, El Haram, Alexandria 12561 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/37/40/03/caption.jpg",
     "location_id": "20367016",
     "name": "Cross Egypt Challenge",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43580,14 +43579,14 @@
       "address": "35 Abdelkader Ragab St., Kafr Abdou, Alexandria 21599 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Motorcycle Tours", "Vespa, Scooter & Moped Tours"]
+    "activityDesctiptor": ["Motorcycle Tours", "Vespa, Scooter & Moped Tours"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1a/a1/1b/ab/caption.jpg",
     "location_id": "19913683",
     "name": "Upper Egypt Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43683,14 +43682,14 @@
       "address": "3 El-Tayeb , Nazlet El-Semman, Al Haram,, Alexandria 12557 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/1b/fb/92/84/caption.jpg",
     "location_id": "21283273",
     "name": "Maison Furniture",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43780,14 +43779,14 @@
     "reviews": [],
     "location": { "coordiantes": [null, null], "address": "Alexandria Egypt" },
     "activities": ["Classes & Workshops", "Other", "Fun & Games"],
-    "activityDesctiptor": ["Paint & Pottery Studios"]
+    "activityDesctiptor": ["Paint & Pottery Studios"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/94/fc/4b/caption.jpg",
     "location_id": "21141071",
     "name": "Alpha One Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43883,14 +43882,14 @@
       "address": "Smouha, Alexandria, Egypt, Alexandria 11211 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Multi-day Tours", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/15/ad/c2/caption.jpg",
     "location_id": "17668979",
     "name": "Golden Land For Real Estate",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -43986,14 +43985,14 @@
       "address": "Elahbar St, Ibrahmia , Alexandria, Alexandria 21599 Egypt"
     },
     "activities": ["Tours", "Other"],
-    "activityDesctiptor": ["Self-Guided Tours & Rentals"]
+    "activityDesctiptor": ["Self-Guided Tours & Rentals"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "18453014",
     "name": "Souvenirs Bazaar",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/18453014",
@@ -44055,14 +44054,14 @@
       "Art Galleries",
       "Gift & Specialty Shops",
       "Antique Stores"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/38/5e/a9/caption.jpg",
     "location_id": "15842376",
     "name": "Golden Bird Travel & Cargo",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -44179,14 +44178,14 @@
       "Private Tours",
       "Self-Guided Tours & Rentals",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/22/12/6c/e3/caption.jpg",
     "location_id": "17736410",
     "name": "ahmed elmasry",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -44313,14 +44312,14 @@
       "Walking Tours",
       "Day Trips",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "19852523",
     "name": "Aladin Tours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/19852523",
@@ -44413,14 +44412,14 @@
       "Bus Tours",
       "Air Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/18/bf/0e/44/caption.jpg",
     "location_id": "19426294",
     "name": "Mahmoud Darwesh",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -44570,14 +44569,14 @@
       "Running Tours",
       "Day Trips",
       "Archaeology Tours"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/f2/ee/6d/caption.jpg",
     "location_id": "15690605",
     "name": "Online-Tours-Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -44673,14 +44672,14 @@
       "address": "17 safar pasha street el gomrok alexandria 25 Karakish Street El Gomrok 4 Floor, Alexandria 21513 Egypt"
     },
     "activities": ["Tours", "Other", "Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles", "Private Tours", "Day Trips"]
+    "activityDesctiptor": ["Taxis & Shuttles", "Private Tours", "Day Trips"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/27/e6/95/f3/caption.jpg",
     "location_id": "19791959",
     "name": "Alexandria Tours & Packages / On The Go Trip",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -44800,14 +44799,14 @@
       "Hiking & Camping Tours",
       "Private Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "19512576",
     "name": "Menatours",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/19512576",
@@ -44880,14 +44879,14 @@
       "Private Tours",
       "Speed Boats Tours",
       "Day Trips"
-    ]
+    ],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "17579989",
     "name": "Caras Tours - Egypt",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/17579989",
@@ -44942,14 +44941,14 @@
     "reviews": [],
     "location": { "coordiantes": [null, null], "address": "Alexandria Egypt" },
     "activities": ["Traveler Resources"],
-    "activityDesctiptor": ["Conference & Convention Centers"]
+    "activityDesctiptor": ["Conference & Convention Centers"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3812404",
     "name": "El Fath Gallery",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3812404",
@@ -45005,14 +45004,14 @@
       "address": "7 El Sheikh Aly El Leithy St. Off Salah El Din St. El Attarin, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping", "Museums"],
-    "activityDesctiptor": ["Art Galleries"]
+    "activityDesctiptor": ["Art Galleries"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3812124",
     "name": "El Sadat Museum",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3812124",
@@ -45068,14 +45067,14 @@
       "address": "Meet Abou El Koum Village, Tala, Alexandria 21599 Egypt"
     },
     "activities": ["Museums"],
-    "activityDesctiptor": ["History Museums"]
+    "activityDesctiptor": ["History Museums"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "9869940",
     "name": "Mystoria Alexandria",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/9869940",
@@ -45132,14 +45131,14 @@
       "address": "37 Ismail Sari Street, Alexandria 21599 Egypt"
     },
     "activities": ["Fun & Games"],
-    "activityDesctiptor": ["Room Escape Games"]
+    "activityDesctiptor": ["Room Escape Games"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": "https://media-cdn.tripadvisor.com/media/photo-o/15/c6/a3/d2/caption.jpg",
     "location_id": "15643545",
     "name": "first mask",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "photo": {
@@ -45234,14 +45233,14 @@
       "address": "84 Omar Lotfy St Unit 103 First Floor, Alexandria 21599 Egypt"
     },
     "activities": ["Other", "Transportation"],
-    "activityDesctiptor": ["Taxis & Shuttles"]
+    "activityDesctiptor": ["Taxis & Shuttles"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3846863",
     "name": "Le Palais",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3846863",
@@ -45297,14 +45296,14 @@
       "address": "Saint Geiny St. Kafr Abdou, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping", "Museums"],
-    "activityDesctiptor": ["Art Galleries"]
+    "activityDesctiptor": ["Art Galleries"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "13406181",
     "name": "Middle East for Commercial Diving",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/13406181",
@@ -45363,14 +45362,14 @@
       "address": "3 Eskander Ebrahim Street 3rd Floor, Alexandria 21599 Egypt"
     },
     "activities": ["Classes & Workshops"],
-    "activityDesctiptor": ["Lessons & Workshops"]
+    "activityDesctiptor": ["Lessons & Workshops"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3748524",
     "name": "Oriental Handmade",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3748524",
@@ -45427,14 +45426,14 @@
       "address": "3 el batal Ahmed Abdel Aziz st. kafr abdou, Roushdy, Alexandria 54645 Egypt"
     },
     "activities": ["Shopping"],
-    "activityDesctiptor": ["Gift & Specialty Shops"]
+    "activityDesctiptor": ["Gift & Specialty Shops"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "3784874",
     "name": "El Sawy Gallery",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/3784874",
@@ -45491,14 +45490,14 @@
       "address": "10 El Dardiry St. El Attarin, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping", "Museums"],
-    "activityDesctiptor": ["Art Galleries"]
+    "activityDesctiptor": ["Art Galleries"],
+    "numberOfReviews": "0"
   },
   {
     "type": "ATTRACTION",
     "image": null,
     "location_id": "4924663",
     "name": "Baron for Cosmetics",
-    "num_reviews": "0",
     "timezone": "Africa/Cairo",
     "location_string": "Alexandria, Alexandria Governorate",
     "api_detail_url": "https://api.tripadvisor.com/api/internal/1.14/location/4924663",
@@ -45555,6 +45554,7 @@
       "address": "10 El Mohandes Ahmed Ismail, Alexandria 21599 Egypt"
     },
     "activities": ["Shopping"],
-    "activityDesctiptor": ["Gift & Specialty Shops"]
+    "activityDesctiptor": ["Gift & Specialty Shops"],
+    "numberOfReviews": "0"
   }
 ]

@@ -10,12 +10,18 @@ const router = express.Router({ mergeParams: true });
 
 router
   .route('/')
-  .get(cityController.getAllCityActivities) ; 
-  
+  .get(cityController.getAllActivities) ; 
+
 router
-  .route('/:activity/attractions')
+  .route('/city/:city/attractions')
+  .get(cityController.getAllCityActivities) ; 
+
+router
+  .route('/city/:city/activity/:activity/attractions')
   .get(cityController.getAllCityActivitiesAttractions)
   
+
+
 // router
 //   .route('/hotels-within/distance/:distance/center/:latlng/unit/:unit')
 //   .get(cityController.hotelsWithin)

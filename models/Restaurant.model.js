@@ -32,7 +32,10 @@ const restaurantSchema = new mongoose.Schema(
     cuisine: [{
       type : String
     }],
-    
+    numberOfReviews: {
+      type: Number,
+      default: 0,
+    },
     location: {
       type: {
         type: String,

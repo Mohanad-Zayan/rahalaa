@@ -414,6 +414,53 @@ exports.getAllCityActivities = catchAsync(async (req, res, next) => {
   });
 });
 
+//  newwwww by adjust the enpint name and controller name
+exports.getAllActivities = catchAsync(async (req, res, next) => {
+  
+  const allActivities = await Actvity.aggregate([
+    {
+      $lookup: {
+        from: "attractions",
+        localField: "attractions",
+        foreignField: "_id",
+        as: "attractions",
+      },
+    },
+    {
+      $unwind: "$attractions",
+    },
+    {
+      $group: {
+        _id: "$type",
+        attractions: { $push: "$attractions" },
+      },
+    },
+    {
+      $unwind: "$attractions",
+    },
+    {
+      $sort: {
+        "attractions.numReviews": -1,
+        "attractions.rating": -1,
+      },
+    },
+    {
+      $group: {
+        _id: "$_id",
+        attractions: { $push: "$attractions" },
+      },
+    },
+  ]);
+
+  // Return the activity types in the response
+  res.status(200).json({
+    status: "success",
+    data: {
+      allActivities,
+    },
+  });
+});
+
 exports.getAllCityActivitiesAttractions = catchAsync(async (req, res, next) => {
   let cityName = req.params.city;
   cityName = cityName.toLowerCase();
@@ -509,18 +556,39 @@ const searchCity = async (city, query) => {
 
     .exec();
 
-  const filteredCities = cities.filter((city) => {
-    if (city.hotels.length == 0) {
-    }
-    return (
-      city.restaurants.length !== 0 ||
-      city.hotels.length === 0 ||
-      city.attractions.length !== 0 ||
-      city.activities.length !== 0
-    );
-  });
+  // const filteredCities = cities.filter((city) => {
+  //   if (city.hotels.length == 0) {
+  //   }
+  //   return (
+  //     city.restaurants.length !== 0 ||
+  //     city.hotels.length === 0 ||
+  //     city.attractions.length !== 0 ||
+  //     city.activities.length !== 0
+  //   );
+  // });
+  //   const results = cities.reduce((acc, city) => {
+  //     return acc.concat(city.restaurants, city.hotels, city.attractions);
+  // }, []);
+  const results = cities.reduce((acc, city) => {
+    const restaurants = city.restaurants.map((restaurant) => ({
+      ...restaurant._doc,
+      type: "restaurant",
+    }));
+    const hotels = city.hotels.map((hotel) => ({
+      ...hotel._doc,
+      type: "hotel",
+    }));
+    const attractions = city.attractions.map((attraction) => ({
+      ...attraction._doc,
+      type: "attraction",
+    }));
+    return acc.concat(restaurants, hotels, attractions);
+  }, []);
 
-  return filteredCities;
+  results.sort(() => Math.random() - 0.5);
+
+
+  return results;
 };
 
 exports.searchInResources = catchAsync(async (req, res, next) => {
@@ -537,24 +605,20 @@ exports.searchInResources = catchAsync(async (req, res, next) => {
   }
 
   const cities = await searchCity(cityName, query);
-  if(cityName){
 
+  if (cityName) {
     res.status(200).json({
       status: "success",
       data: {
-        [cityName]: cities , 
+        [cityName]: cities,
       },
     });
-  }else{
-
-
+  } else {
     res.status(200).json({
       status: "success",
       data: {
-        cities  
+        cities,
       },
     });
   }
-
-
 });

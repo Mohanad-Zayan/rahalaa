@@ -18,7 +18,7 @@ const attractionSchema = new mongoose.Schema(
       set: (val) => Math.round(val * 10) / 10,
     },
     
-    num_reviews: {
+    numberOfReviews: {
       type: Number,
       default: 0,
     },

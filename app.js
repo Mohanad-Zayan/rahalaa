@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 
 const AppError = require('./util/AppError');
 const globalErrorHandlers = require('./controlles/errorController')
@@ -12,6 +13,8 @@ const restaurantsRouter = require('./routes/restaurantRoutes');
 
 
 const app = express();
+
+app.use(cors());
 
 // 1) MIDDLEWARES
 if (process.env.NODE_ENV === 'DEV') {
