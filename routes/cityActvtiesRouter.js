@@ -17,7 +17,7 @@ router
   .get(cityController.getAllCityActivities) ; 
 
 router
-  .route('/city/:city/activity/:activity/attractions')
+  .route('/city/:city/:activity/attractions')
   .get(cityController.getAllCityActivitiesAttractions)
   
 

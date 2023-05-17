@@ -22,6 +22,8 @@ exports.getAllUsers = factory.getAll(User);
 
 
 exports.updateMe = catcAsync(async (req, res, next) => {
+  // const user = await User.findByIdAndUpdate(req.user.id, { active: false });
+  
   if (req.body.password || req.body.passwordConfirm)
     return next(
       new AppError(
@@ -43,13 +45,15 @@ exports.updateMe = catcAsync(async (req, res, next) => {
     }
   });
 });
+
 exports.deleteMe = catcAsync(async (req, res, next) => {
-  await User.findByIdAndUpdate(req.user.id, { active: false });
+  await User.findByIdAndDelete(req.user.id);
   res.status(204).json({
     status: 'success',
     data: null
   });
 });
+
 exports.getMe = catcAsync(async (req, res, next) => {
   req.params.id = req.user.id ;
   next() ;

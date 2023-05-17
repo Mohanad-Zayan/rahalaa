@@ -410,7 +410,7 @@ exports.getAllCityActivities = catchAsync(async (req, res, next) => {
     status: "success",
     data: {
       activityTypes,
-    },
+    },w
   });
 });
 
