@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const attractionSchema = new mongoose.Schema(
   {
-    name: {
+      name: {
       type: String,
       required: [true, "A Hotel must have a name"],
       trim: true,
@@ -32,7 +32,8 @@ const attractionSchema = new mongoose.Schema(
         default: "Point",
         enum: ["Point"],
       },
-      coordiantes: [Number],
+      
+      coordinates: [Number],
       address: String,
       // description: String,
     },

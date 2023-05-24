@@ -23,10 +23,9 @@ const cities = [
   "hurghada",
   "portSaid",
 ];
-const citiesElements = ["restaurants", "attractions", "hotels"];
+const citiesElements = ["restaurants", "attractions", "hotels" ];
 
 const rha_ids = {};
-
 
 
 const adjustingDataShape = () => {
@@ -45,8 +44,7 @@ const adjustingDataShape = () => {
        
         
         obj.location = {
-          
-          coordiantes: [latitude, longitude],
+          coordinates : [latitude, longitude],
           address,
         }; 
 
@@ -54,7 +52,7 @@ const adjustingDataShape = () => {
         if(el == 'attractions'){
           const num_reviews = obj.num_reviews ;
           delete obj.num_reviews
-          console.log(subcategory);
+          // console.log(subcategory);
           // console.log();
           const activities = subcategory?.map(el => el.name); 
           const activityDesctiptor = subtype?.map(el => el.name);
@@ -79,19 +77,6 @@ const adjustingDataShape = () => {
 
 // adjustingDataShape()
 
-// const collectionsCleaning = () =>{
-//   (async function(){
-  
-//   try{
-//       await mongoose.connection.dropCollection('restaurants')
-//       await mongoose.connection.dropCollection('attractions')
-//       await mongoose.connection.dropCollection('hotels')
-//       await mongoose.connection.dropCollection('cities')
-//     }catch(error){
-//       console.log(error);
-//     }
-//   }());
-// }
 
 const generalDataCreation = () => {
 
@@ -148,7 +133,6 @@ const generalDataCreation = () => {
     });
   });
 }
-
 
 
 
@@ -223,8 +207,45 @@ const creatingActvties =  () =>{
   });
 }
 
+const functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a = () =>{
+
+  const cleanNullValues = (obj) => {
+    if (Array.isArray(obj)) {
+      return obj.filter(item => item !== null).map(cleanNullValues);
+    }
+    if (typeof obj === 'object' && obj !== null) {
+      return Object.fromEntries(
+        Object.entries(obj)
+          .filter(([key, value]) => value !== null)
+          .map(([key, value]) => [key, cleanNullValues(value)])
+      );
+    }
+    return obj;
+  }
+  
+  cities.forEach(async (city) => {
+    
+    citiesElements.forEach(async (el) => {  
+      const directory = path.join(__dirname, "cities", city, `${el}.json`);
+  
+      const jsonObj = JSON.parse(fs.readFileSync(directory, "utf-8"));
+      
+      const jsonObjClean = cleanNullValues(jsonObj);
+      console.log(directory);
+      fs.writeFileSync( directory,JSON.stringify(jsonObjClean))
+    });
+  });
+  
+}
+
+
+// functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a()
+
 generalDataCreation() 
 extractingActvitiesAndAssociatingWithAttractions() 
+
+
+
 
 setTimeout(() => {
    

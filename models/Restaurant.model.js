@@ -42,11 +42,12 @@ const restaurantSchema = new mongoose.Schema(
         default: "Point",
         enum: ["Point"],
       },
-
-      coordiantes: [Number],
+      
+      coordinates: [Number],
       address: String,
-    },
+    }
 
+    
     // reviews: [{}],
 
       // numberOfReviews : {},

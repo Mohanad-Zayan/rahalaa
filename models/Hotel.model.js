@@ -53,7 +53,7 @@ const hotelSchema = new mongoose.Schema(
         enum: ["Point"],
       },
       
-      coordiantes: [Number],
+      coordinates: [Number],
       address: String,
       // description: String,
     },

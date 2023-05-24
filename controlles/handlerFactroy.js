@@ -67,6 +67,7 @@ exports.createOne = (Model) => {
 };
 
 exports.getAll = (Model) => {
+  
   return catchAsync(async (req, res) => {
     // console.log("hellpo");
     // let filtter = {};

@@ -9,7 +9,12 @@ exports.getRestaurant = factory.getOne(Restaurant);
 exports.getAllRestaurants = factory.getAll(Restaurant);
 exports.updateRestaurant = factory.updateOne(Restaurant);
 exports.deleteRestaurant = factory.deleteOne(Restaurant);
-  
+
+
+
+
+
+
 
 
 // /restaurants-within/distance/:distance/center/:latlng/unit/:unit

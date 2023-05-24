@@ -12,6 +12,8 @@ exports.getAllAttractions = factory.getAll(Attraction);
   
 
 
+
+
 // /attractions-within/distance/:distance/center/:latlng/unit/:unit
 exports.attractionsWithin = catcAsync(async (req, res, next) => {
     const { distance, latlng, unit } = req.params;
