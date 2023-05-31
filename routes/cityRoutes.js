@@ -2,6 +2,7 @@ const express  = require("express");
 const cityHotelsRoutes= require('./cityHotelsRouter');
 const cityRestrauntsRoutes= require('./cityRestrauntsRouter');
 const cityAttractionsRoutes = require('./cityAttractionRouter');
+const plansRoutes  = require('./plansRouter');
 const cityActvtiesRoutes = require('./cityActvtiesRouter');
 const cityController = require('../controlles/cityController');
 // const actvtiesRouter  = require("./actvtiesRouter");
@@ -10,9 +11,10 @@ const router = express.Router({mergeParams : true});
 
 
 
+router.use('/plans', plansRoutes)
 router.use('/city/:city/hotels', cityHotelsRoutes)
 router.use('/city/:city/restaurants',cityRestrauntsRoutes )
-router.use('/city/:city/attractions', cityAttractionsRoutes)
+router.use('/city/:city/att ractions', cityAttractionsRoutes)
 router.use('/activties', cityActvtiesRoutes)
 
 
