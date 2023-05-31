@@ -131,6 +131,8 @@ exports.generatePlans = catcAsync(async (req, res, next) => {
 
     const selectedPlan = {
       name: `${cityName}-${i+1}`,
+      image : selectedAttractions[0].image,
+
       hotels: selectedHotel,
       restaurants: selectedRestaurants,
       attractions: selectedAttractions,
