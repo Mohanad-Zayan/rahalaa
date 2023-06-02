@@ -32,14 +32,14 @@ app.use((req, res, next) => {
 // 3) ROUTES index
 
 app.use('/api/users', userRouter);
-app.use('/api/cities', citWyRouter) ; 
+app.use('/api/cities', cityRouter) ; 
 
 
 // dashaboard specfic endpoints 
 app.use('/api/attractions',attractiosnRouter ) ; 
 app.use('/api/hotels',hotelsRouter ) ; 
 app.use('/api/restaurants',restaurantsRouter ) ; 
-
+W
 
 
 app.all('*', (req, res ,next)=>{
