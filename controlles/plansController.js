@@ -10,7 +10,6 @@ exports.getAllPlans = factory.getAll(Plan);
 exports.updatePlan = factory.updateOne(Plan);
 exports.deletePlan = factory.deleteOne(Plan);
 
-
 // exports.generatePlan = catcAsync(async (req, res, next) => {
 //   const { cityName } = req.params;
 //   console.log(cityName);
@@ -24,7 +23,7 @@ exports.deletePlan = factory.deleteOne(Plan);
 //   /* Filter out any hotels, restaurants, or attractions based on a specfic condation
 
 //       / tb3n mfish el klam dah 3shan el application ai klam
-      
+
 //   */
 
 //   // Create a plan object with a random hotel, restaurant, and attraction from the available options
@@ -61,7 +60,7 @@ exports.deletePlan = factory.deleteOne(Plan);
 //     .populate("hotels")
 //     .populate("attractions");
 
-//   /* Filter out any hotels, restaurants, or attractions based on a specific condition 
+//   /* Filter out any hotels, restaurants, or attractions based on a specific condition
 //        (e.g., availability during the specified dates) */
 
 //   // Create an array to hold the generated plans
@@ -97,13 +96,15 @@ exports.deletePlan = factory.deleteOne(Plan);
 
 exports.generatePlans = catcAsync(async (req, res, next) => {
   let { cityName } = req.params;
-  const { numberOfPlans = 1 ,  numberOfRestaurants =1 , numberOfAttractions = 1 } = req.body;
- 
- 
+  const {
+    numberOfPlans = 1,
+    numberOfRestaurants = 1,
+    numberOfAttractions = 1,
+  } = req.body;
+
   cityName = cityName.toLowerCase();
   cityName = cityName.charAt(0).toUpperCase() + cityName.slice(1);
 
- 
   // Retrieve all hotels, restaurants, and attractions in the specified city
   const city = await City.findOne({ name: cityName })
     .populate("restaurants")
@@ -129,13 +130,28 @@ exports.generatePlans = catcAsync(async (req, res, next) => {
     const selectedHotel =
       city.hotels[Math.floor(Math.random() * city.hotels.length)];
 
+    // let allPlaces = []
+    // selectedRestaurants.forEach((element) => {});
+    // (restaurant) => {
+    //   allPlaces.push(restaurant) ;
+    // };
+    // selectedAttractions.forEach((element) => {});
+    // (attraction) => {
+    //   allPlaces.push(attraction) ;
+    // };
+    // selectedHotel.forEach((element) => {});
+    // (restaurant) => {
+    //   allPlaces.push(restaurant) ;
+    // };
     const selectedPlan = {
-      name: `${cityName}-${i+1}`,
-      image : selectedAttractions[0].image,
+      name: `${cityName}-${i + 1}`,
+      image: selectedAttractions[0].image,
 
-      hotels: selectedHotel,
-      restaurants: selectedRestaurants,
-      attractions: selectedAttractions,
+      // hotels: selectedHotel,
+      // restaurants: selectedRestaurants,
+      // attractions: selectedAttractions,
+      // places: allPlaces,
+      places: [ selectedHotel, ...selectedRestaurants, ...selectedAttractions ],
     };
 
     // Add the generated plan to the array of plans
