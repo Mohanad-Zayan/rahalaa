@@ -6,7 +6,7 @@ const cityController = require('./../controlles/cityController');
 
 
 const router = express.Router({ mergeParams: true });
-
+console.log("da5l gwa el activities");
 
 router
   .route('/')

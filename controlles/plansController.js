@@ -130,19 +130,7 @@ exports.generatePlans = catcAsync(async (req, res, next) => {
     const selectedHotel =
       city.hotels[Math.floor(Math.random() * city.hotels.length)];
 
-    // let allPlaces = []
-    // selectedRestaurants.forEach((element) => {});
-    // (restaurant) => {
-    //   allPlaces.push(restaurant) ;
-    // };
-    // selectedAttractions.forEach((element) => {});
-    // (attraction) => {
-    //   allPlaces.push(attraction) ;
-    // };
-    // selectedHotel.forEach((element) => {});
-    // (restaurant) => {
-    //   allPlaces.push(restaurant) ;
-    // };
+  
     const selectedPlan = {
       name: `${cityName}-${i + 1}`,
       image: selectedAttractions[0].image,
@@ -150,7 +138,7 @@ exports.generatePlans = catcAsync(async (req, res, next) => {
       // hotels: selectedHotel,
       // restaurants: selectedRestaurants,
       // attractions: selectedAttractions,
-      // places: allPlaces,
+      
       places: [ selectedHotel, ...selectedRestaurants, ...selectedAttractions ],
     };
 

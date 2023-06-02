@@ -15,6 +15,7 @@ exports.getAllCityHotels = catchAsync(async (req, res, next) => {
   cityName = cityName.charAt(0).toUpperCase() + cityName.slice(1);
 
   const [city] = await City.find({ name: cityName })
+  
     .select({ hotels: 1 })
     .populate({
       path: "hotels",
@@ -400,6 +401,7 @@ exports.deleteCityAttraction = catchAsync(async (req, res, next) => {
 // activities
 
 exports.getAllCityActivities = catchAsync(async (req, res, next) => {
+  console.log('look Here ');
   let cityName = req.params.city;
   cityName = cityName.toLowerCase();
   // Retrieve all distinct activity types for the city
@@ -410,7 +412,7 @@ exports.getAllCityActivities = catchAsync(async (req, res, next) => {
     status: "success",
     data: {
       activityTypes,
-    },w
+    },
   });
 });
 
