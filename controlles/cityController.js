@@ -537,7 +537,6 @@ exports.getOneCity = catchAsync(async (req, res, next) => {
     },
   });
 });
-
 const searchCity = async (city, query) => {
   const findObj = city ? { name: city } : {};
 

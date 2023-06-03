@@ -135,15 +135,62 @@ exports.generatePlans = catcAsync(async (req, res, next) => {
       name: `${cityName}-${i + 1}`,
       image: selectedAttractions[0].image,
 
-      // hotels: selectedHotel,
-      // restaurants: selectedRestaurants,
-      // attractions: selectedAttractions,
-      
       places: [ selectedHotel, ...selectedRestaurants, ...selectedAttractions ],
     };
 
     // Add the generated plan to the array of plans
     plans.push(selectedPlan);
+  }
+
+  res.status(200).json({
+    status: "success",
+    data: {
+      plans,
+    },
+  });
+});
+
+
+exports.generateRandomPlansAll = catcAsync(async (req, res, next) => {
+  const {
+    numberOfPlansPerCity = 1,
+    numberOfRestaurants = 1,
+    numberOfAttractions = 1,
+  } = req.body;
+
+  // Retrieve all cities with hotels, restaurants, and attractions
+  const cities = await City.find()
+    .populate("restaurants")
+    .populate("hotels")
+    .populate("attractions")
+    .lean();
+
+  // Create an array to hold the generated plans
+  const plans = [];
+
+  // Generate the specified number of plans for each city
+  for (let i = 0; i < numberOfPlansPerCity; i++) {
+    for (const city of cities) {
+      const selectedRestaurants = city.restaurants
+        .sort(() => 0.5 - Math.random())
+        .slice(0, numberOfRestaurants);
+
+      const selectedAttractions = city.attractions
+        .sort(() => 0.5 - Math.random())
+        .slice(0, numberOfAttractions);
+
+      const selectedHotel =
+        city.hotels[Math.floor(Math.random() * city.hotels.length)];
+
+      const selectedPlan = {
+        name: `${city.name}-${i + 1}`,
+        image: selectedAttractions[0].image,
+        places: [selectedHotel, ...selectedRestaurants, ...selectedAttractions],
+      };
+
+      // Add the generated plan to the array of plans
+      plans.push(selectedPlan);
+    }
   }
 
   res.status(200).json({

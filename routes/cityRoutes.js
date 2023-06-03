@@ -14,7 +14,7 @@ const router = express.Router({mergeParams : true});
 router.use('/plans', plansRoutes)
 router.use('/city/:city/hotels', cityHotelsRoutes)
 router.use('/city/:city/restaurants',cityRestrauntsRoutes )
-router.use('/city/:city/att ractions', cityAttractionsRoutes)
+router.use('/city/:city/attractions', cityAttractionsRoutes)
 router.use('/activties', cityActvtiesRoutes)
 
 
@@ -25,6 +25,7 @@ router
   .route('/city/:city')
   .get(cityController.getOneCity)
 
+
 router
     .route('/search')
     .get(cityController.searchInResources)
@@ -32,7 +33,7 @@ router
 router
     .route('/city/:city/search')
     .get(cityController.searchInResources)
-  
+
 //   .post(cityController.createCity);
 
 

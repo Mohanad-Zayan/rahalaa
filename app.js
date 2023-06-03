@@ -39,7 +39,7 @@ app.use('/api/cities', cityRouter) ;
 app.use('/api/attractions',attractiosnRouter ) ; 
 app.use('/api/hotels',hotelsRouter ) ; 
 app.use('/api/restaurants',restaurantsRouter ) ; 
-W
+
 
 
 app.all('*', (req, res ,next)=>{
