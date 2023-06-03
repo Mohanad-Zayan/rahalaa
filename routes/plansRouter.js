@@ -6,7 +6,7 @@ const router = express.Router({ mergeParams: true });
 
 // router.get('/:cityName/generate', plansController.generatePlan );
 router.get('/:cityName/generate', plansController.generatePlans );
-router.get('/generateAll', plansController.generateRandomPlansAll );
+router.get('/generate', plansController.generateRandomPlansAll );
 
 router
   .route('/')

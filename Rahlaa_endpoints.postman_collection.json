@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "d5316933-5701-44d9-9926-d206848cb20c",
-		"name": "Rahlaa endpoints Copy",
+		"_postman_id": "10136d56-db6f-4060-bb64-192d091de0d8",
+		"name": "Rahlaa endpoints",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "12796607"
 	},
@@ -227,12 +227,15 @@
 							}
 						}
 					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"testingg\" , \r\n    \"email\": \"testingg@gmail.com\" ,\r\n    \"password\": \"password12345\" ,\r\n    \"passwordConfirm\": \"password12345\",\r\n    \"passwordChangedAt\" : \"2019-4-4\"\r\n}\r\n",
+							"raw": "{\r\n    \"name\" : \"testingg\" , \r\n    \"email\": \"new@gmail.com\" ,\r\n    \"password\": \"password12345\" ,\r\n    \"passwordConfirm\": \"password12345\",\r\n    \"passwordChangedAt\" : \"2019-4-4\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -469,7 +472,7 @@
 			]
 		},
 		{
-			"name": "City",
+			"name": "Cities",
 			"item": [
 				{
 					"name": "attractions",
@@ -497,12 +500,15 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "{{URL}}/api/city/:city/attractions",
+									"raw": "{{URL}}/api/cities/city/cairo/attractions",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										"cairo",
 										"attractions"
 									]
 								}
@@ -525,14 +531,17 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{URL}}/api/city/:city/attractions/63f9afd6937143fbbed6866a",
+									"raw": "{{URL}}/api/cities/city/cairo/attractions/6436caa2994c1a56b301b187",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										"cairo",
 										"attractions",
-										"63f9afd6937143fbbed6866a"
+										"6436caa2994c1a56b301b187"
 									]
 								}
 							},
@@ -554,14 +563,23 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{URL}}/api/city/:city/attractions/63f896bb2e37124abe8f2983",
+									"raw": "{{URL}}/api/cities/city/:city/attractions/644c5456eb1ba7848e2e6b20",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										":city",
 										"attractions",
-										"63f896bb2e37124abe8f2983"
+										"644c5456eb1ba7848e2e6b20"
+									],
+									"variable": [
+										{
+											"key": "city",
+											"value": null
+										}
 									]
 								}
 							},
@@ -582,13 +600,22 @@
 									}
 								},
 								"url": {
-									"raw": "{{URL}}/api/city/:city/attractions",
+									"raw": "{{URL}}/api/cities/city/:city/attractions",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										":city",
 										"attractions"
+									],
+									"variable": [
+										{
+											"key": "city",
+											"value": null
+										}
 									]
 								}
 							},
@@ -619,14 +646,23 @@
 									}
 								},
 								"url": {
-									"raw": "{{URL}}/api/city/:city/attractions/63f9ac0724cdbb34bc6cc5b5",
+									"raw": "{{URL}}/api/cities/city/:city/attractions/63f9ac0724cdbb34bc6cc5b5",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										":city",
 										"attractions",
 										"63f9ac0724cdbb34bc6cc5b5"
+									],
+									"variable": [
+										{
+											"key": "city",
+											"value": null
+										}
 									]
 								}
 							},
@@ -660,13 +696,30 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "{{URL}}/api/city/:city/hotels",
+									"raw": "{{URL}}/api/cities/city/cairo/hotels?page=3&limit=5&sort=-numberOfReviews",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										"cairo",
 										"hotels"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "3"
+										},
+										{
+											"key": "limit",
+											"value": "5"
+										},
+										{
+											"key": "sort",
+											"value": "-numberOfReviews"
+										}
 									]
 								}
 							},
@@ -688,14 +741,17 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{URL}}/api/city/:city/hotels/63f9afd6937143fbbed6866a",
+									"raw": "{{URL}}/api/cities/city/cairo/hotels/6436caa2994c1a56b301b279",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										"cairo",
 										"hotels",
-										"63f9afd6937143fbbed6866a"
+										"6436caa2994c1a56b301b279"
 									]
 								}
 							},
@@ -717,14 +773,23 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{URL}}/api/city/:city/hotels/63f896bb2e37124abe8f2983",
+									"raw": "{{URL}}/api/cities/city/:city/hotels/644c5519eb1ba7848e2e6b28",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										":city",
 										"hotels",
-										"63f896bb2e37124abe8f2983"
+										"644c5519eb1ba7848e2e6b28"
+									],
+									"variable": [
+										{
+											"key": "city",
+											"value": null
+										}
 									]
 								}
 							},
@@ -737,7 +802,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"testing the create Tour endPoint now\" ,\r\n    \"age\" : 20 , \r\n    \"email\" : \"test@gmail.com\" , \r\n    \"passwordChangedAt\" : \"2019-4-4\" \r\n}\r\n",
+									"raw": "{\r\n    \"name\": \"testing the create Tour endPoint now\" ,\r\n    \"age\" : 20 , \r\n    \"city\" : \"alexandria\" ,\r\n    \"email\" : \"test@gmail.com\" , \r\n    \"passwordChangedAt\" : \"2019-4-4\" \r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -745,12 +810,15 @@
 									}
 								},
 								"url": {
-									"raw": "{{URL}}/api/city/:city/hotels",
+									"raw": "{{URL}}/api/cities/city/alexandria/hotels",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										"alexandria",
 										"hotels"
 									]
 								}
@@ -788,8 +856,16 @@
 									],
 									"path": [
 										"api",
+										"city",
+										":city",
 										"hotels",
 										"63f9ac0724cdbb34bc6cc5b5"
+									],
+									"variable": [
+										{
+											"key": "city",
+											"value": null
+										}
 									]
 								}
 							},
@@ -823,12 +899,15 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "{{URL}}/api/city/:city/restaurants",
+									"raw": "{{URL}}/api/cities/city/cairo/restaurants",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										"cairo",
 										"restaurants"
 									]
 								}
@@ -851,14 +930,17 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{URL}}/api/city/:city/restaurants/63f9afd6937143fbbed6866a",
+									"raw": "{{URL}}/api/cities/city/cairo/restaurants/6436caa2994c1a56b301b128",
 									"host": [
 										"{{URL}}"
 									],
 									"path": [
 										"api",
+										"cities",
+										"city",
+										"cairo",
 										"restaurants",
-										"63f9afd6937143fbbed6866a"
+										"6436caa2994c1a56b301b128"
 									]
 								}
 							},
@@ -886,8 +968,16 @@
 									],
 									"path": [
 										"api",
+										"city",
+										":city",
 										"restaurants",
 										"63f896bb2e37124abe8f2983"
+									],
+									"variable": [
+										{
+											"key": "city",
+											"value": null
+										}
 									]
 								}
 							},
@@ -914,7 +1004,15 @@
 									],
 									"path": [
 										"api",
+										"city",
+										":city",
 										"restaurants"
+									],
+									"variable": [
+										{
+											"key": "city",
+											"value": null
+										}
 									]
 								}
 							},
@@ -951,14 +1049,201 @@
 									],
 									"path": [
 										"api",
+										"city",
+										":city",
 										"restaurants",
 										"63f9ac0724cdbb34bc6cc5b5"
+									],
+									"variable": [
+										{
+											"key": "city",
+											"value": null
+										}
 									]
 								}
 							},
 							"response": []
 						}
 					]
+				},
+				{
+					"name": "activities",
+					"item": [
+						{
+							"name": "Get all Activity type for a certain city",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/cities/activties/city/alexandria/attractions",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"cities",
+										"activties",
+										"city",
+										"alexandria",
+										"attractions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get All attraction for activity in a city ",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/cities/activties/city/alexandria/activity/Shopping/attractions",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"cities",
+										"activties",
+										"city",
+										"alexandria",
+										"activity",
+										"Shopping",
+										"attractions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get All activities with all attractions",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/cities/activties",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"cities",
+										"activties"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Search",
+					"item": [
+						{
+							"name": "search in all cities",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/cities/search?search=q",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"cities",
+										"search"
+									],
+									"query": [
+										{
+											"key": "search",
+											"value": "q"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search in one city",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{URL}}/api/cities/city/alexandria/search?search=q",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"api",
+										"cities",
+										"city",
+										"alexandria",
+										"search"
+									],
+									"query": [
+										{
+											"key": "search",
+											"value": "q"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get All cities with All content",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/cities/",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"cities",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ONE CITY With It's content",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/cities/city/cairo",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"cities",
+								"city",
+								"cairo"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "plans",
+			"item": [
+				{
+					"name": "generate Plan",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			]
 		}

@@ -97,9 +97,9 @@ exports.deletePlan = factory.deleteOne(Plan);
 exports.generatePlans = catcAsync(async (req, res, next) => {
   let { cityName } = req.params;
   const {
-    numberOfPlans = 1,
-    numberOfRestaurants = 1,
-    numberOfAttractions = 1,
+    numberOfPlans = 2,
+    numberOfRestaurants = 2,
+    numberOfAttractions = 4,
   } = req.body;
 
   cityName = cityName.toLowerCase();
@@ -153,9 +153,9 @@ exports.generatePlans = catcAsync(async (req, res, next) => {
 
 exports.generateRandomPlansAll = catcAsync(async (req, res, next) => {
   const {
-    numberOfPlansPerCity = 1,
-    numberOfRestaurants = 1,
-    numberOfAttractions = 1,
+    numberOfPlansPerCity = 2,
+    numberOfRestaurants = 2,
+    numberOfAttractions = 4,
   } = req.body;
 
   // Retrieve all cities with hotels, restaurants, and attractions
