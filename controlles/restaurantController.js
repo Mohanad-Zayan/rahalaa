@@ -86,6 +86,17 @@ exports.getAllRestaurants = catcAsync(async (req, res) => {
   });
 });
 
+exports.getInactiveRestaurants = catcAsync(async (req, res) => {
+  const inactiveRestaurants = await Restaurant.find({ status: 'in-active' }).lean();
+
+  res.status(200).json({
+    status: 'success',
+    results: inactiveRestaurants.length,
+    data: {
+      restaurants: inactiveRestaurants
+    }
+  });
+});
 
 
 // /restaurants-within/distance/:distance/center/:latlng/unit/:unit

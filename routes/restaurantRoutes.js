@@ -5,11 +5,15 @@ const authController = require('../controlles/authController');
 
 const router = express.Router({ mergeParams: true });
 
+router.get('/inactiveRest',
+  restaurantController.getInactiveRestaurants);
+
 
 router
   .route('/')
   .get(restaurantController.getAllRestaurants)
   .post(authController.protect ,  restaurantController.createRestaurant);
+
 router
   .route('/:id')
   .get(restaurantController.getRestaurant)

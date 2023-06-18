@@ -25,7 +25,7 @@ router
 
 router.patch(
   "/acceptRequest/:id",
-  //authController.protect,
+  // authController.protect,
   hotelController.acceptHotelReq
 );
 
