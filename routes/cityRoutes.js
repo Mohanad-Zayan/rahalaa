@@ -11,6 +11,7 @@ const router = express.Router({mergeParams : true});
 
 
 
+
 router.use('/plans', plansRoutes)
 router.use('/city/:city/hotels', cityHotelsRoutes)
 router.use('/city/:city/restaurants',cityRestrauntsRoutes )

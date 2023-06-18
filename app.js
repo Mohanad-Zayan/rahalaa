@@ -10,11 +10,15 @@ const cityRouter = require('./routes/cityRoutes');
 const attractiosnRouter = require('./routes/attractionRoutes');
 const hotelsRouter = require('./routes/hotelRoutes');
 const restaurantsRouter = require('./routes/restaurantRoutes');
+const hotelReviewRoutes = require('./routes/hotelReviewRoutes');
+const restaurantReviews = require('./routes/restReviewRoutes');
 
 
 const app = express();
 
 app.use(cors());
+
+
 
 // 1) MIDDLEWARES
 if (process.env.NODE_ENV === 'DEV') {
@@ -39,6 +43,8 @@ app.use('/api/cities', cityRouter) ;
 app.use('/api/attractions',attractiosnRouter ) ; 
 app.use('/api/hotels',hotelsRouter ) ; 
 app.use('/api/restaurants',restaurantsRouter ) ; 
+app.use('/api/hotelreviews', hotelReviewRoutes);
+app.use('/api/restaurantReviews', restaurantReviews);
 
 
 

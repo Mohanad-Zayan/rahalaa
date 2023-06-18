@@ -7,6 +7,10 @@ const attractionSchema = new mongoose.Schema(
       required: [true, "A Hotel must have a name"],
       trim: true,
     },
+    type: {
+      type: String,
+      default: "Attraction",
+    },
     image: {
       type: String,
     },
@@ -37,7 +41,10 @@ const attractionSchema = new mongoose.Schema(
       address: String,
       // description: String,
     },
-      
+    reviews: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'AttractionReview'
+    }],
     activityDesctiptor :[{
       type  : String 
     }]   

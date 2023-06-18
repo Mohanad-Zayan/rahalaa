@@ -18,7 +18,7 @@ mongoose.connect(database).then((con) => console.log(`DB connected ${con}`));
 const cities = [
   "alexandria",
   "cairo",
-  "dahab",
+"dahab",
   "sharm",
   "hurghada",
   "portSaid",
@@ -74,7 +74,7 @@ const adjustingDataShape = () => {
 }
 
 
-
+// done 
 // adjustingDataShape()
 
 
@@ -207,6 +207,8 @@ const creatingActvties =  () =>{
   });
 }
 
+// clear null records (nested) 
+// use it after seeding the database ?
 const functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a = () =>{
 
   const cleanNullValues = (obj) => {
@@ -248,7 +250,7 @@ extractingActvitiesAndAssociatingWithAttractions()
 
 
 setTimeout(() => {
-   
+  console.log('creatingActvties()');   
   creatingActvties()
   
 }, 1000 * 60 * 15 );
@@ -256,6 +258,7 @@ setTimeout(() => {
 
 
 setTimeout(() => {
+  console.log('lastStep()');   
   cities.forEach(async city => {
     
     const newCity = new City({

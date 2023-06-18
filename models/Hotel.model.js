@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const validator = require("validator");
+// const validator = require("validator");
 
 const hotelSchema = new mongoose.Schema(
   {
@@ -7,6 +7,10 @@ const hotelSchema = new mongoose.Schema(
       type: String,
       required: [true, "A Hotel must have a name"],
       trim: true,
+    },
+    type: {
+      type: String,
+      default: "Hotel",
     },
     // city:{
     //   type: String,
@@ -57,10 +61,11 @@ const hotelSchema = new mongoose.Schema(
       address: String,
       // description: String,
     },
-    // reviews: [{
-    //   type: mongoose.Schema.ObjectId,
-    //   ref: "Attraction",
-    //   }],
+    reviews: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'HotelReview'
+    }]
+    
 
   },
   {

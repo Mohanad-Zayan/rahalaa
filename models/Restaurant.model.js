@@ -7,6 +7,10 @@ const restaurantSchema = new mongoose.Schema(
       required: [true, "A Restaraunt must have a name"],
       trim: true,
     },
+    type: {
+      type: String,
+      default: "Restaraunt",
+    },
     image: {
       // type: mongoose.SchemaTypes.Url,
       type: String,
@@ -45,8 +49,11 @@ const restaurantSchema = new mongoose.Schema(
       
       coordinates: [Number],
       address: String,
-    }
-
+    },
+    reviews: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'RestReview',
+    }],
     
     // reviews: [{}],
 

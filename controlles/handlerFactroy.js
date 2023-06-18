@@ -3,6 +3,7 @@ const catchAsync = require("../util/catcAsync");
 const APIFeatures = require("../util/ApiFeature");
 const Hotel = require("../models/Hotel.model");
 
+
 exports.deleteOne = (Model) => {
   return catchAsync(async (req, res, next) => {
     const doc = await Model.findByIdAndDelete(req.params.id);
