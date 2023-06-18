@@ -61,6 +61,11 @@ const hotelSchema = new mongoose.Schema(
       address: String,
       // description: String,
     },
+    status: {
+      type: String,
+      enum: ['active', 'in-active'],
+      default: 'in-active'
+    },
     reviews: [{
       type: mongoose.Schema.Types.ObjectId,
       ref: 'HotelReview'

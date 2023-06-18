@@ -50,6 +50,11 @@ const restaurantSchema = new mongoose.Schema(
       coordinates: [Number],
       address: String,
     },
+    status: {
+      type: String,
+      enum: ['active', 'in-active'],
+      default: 'active'
+    },
     reviews: [{
       type: mongoose.Schema.Types.ObjectId,
       ref: 'RestReview',

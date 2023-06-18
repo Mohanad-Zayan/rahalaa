@@ -1,5 +1,6 @@
 const express = require('express');
 const restaurantController= require('../controlles/restaurantController');
+const authController = require('../controlles/authController');
 
 
 const router = express.Router({ mergeParams: true });
@@ -8,7 +9,7 @@ const router = express.Router({ mergeParams: true });
 router
   .route('/')
   .get(restaurantController.getAllRestaurants)
-  .post(restaurantController.createRestaurant);
+  .post(authController.protect ,  restaurantController.createRestaurant);
 router
   .route('/:id')
   .get(restaurantController.getRestaurant)
