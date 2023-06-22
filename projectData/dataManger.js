@@ -41,14 +41,11 @@ const adjustingDataShape = () => {
         delete obj.address;
         delete obj.subtype
         delete obj.subcategory
-       
-        
+
         obj.location = {
           coordinates : [latitude, longitude],
           address,
         }; 
-
-
         if(el == 'attractions'){
           const num_reviews = obj.num_reviews ;
           delete obj.num_reviews
@@ -61,13 +58,8 @@ const adjustingDataShape = () => {
           obj.activityDesctiptor = activityDesctiptor ;
           obj.numberOfReviews =  num_reviews ;
         }
-
-
       });
-
-
       fs.writeFileSync(directory , JSON.stringify(jsonObj)) ;
-  
   
     });
   });
@@ -79,20 +71,12 @@ const adjustingDataShape = () => {
 
 
 const generalDataCreation = () => {
-
   cities.forEach(async (city) => {
     rha_ids[city] = {};
-  
     citiesElements.forEach(async (el) => {
       rha_ids[city][el] = { ids: [] };
-      
-      
-      
       const directory = path.join(__dirname, "cities", city, `${el}.json`);
-  
       const jsonObj = JSON.parse(fs.readFileSync(directory, "utf-8"));
-      
-      
       if (el === "hotels") {
         try {
           const hotels = await Hotel.create(jsonObj);
@@ -100,7 +84,6 @@ const generalDataCreation = () => {
           hotels.forEach((hotel) => {
             rha_ids[city].hotels.ids.push(hotel.id);
           });
-          
         } catch (error) {
           console.log(error);
         }
@@ -115,21 +98,15 @@ const generalDataCreation = () => {
         }
       }else{
         try {
-          
           const attractions = await Attraction.create(jsonObj);
-           
           attractions.forEach((attraction) => {
             rha_ids[city].attractions.ids.push(attraction.id);
             
-            
           });
-          
-
         } catch (error) {
           console.log(error);
         }
       }
-      
     });
   });
 }
@@ -138,57 +115,33 @@ const generalDataCreation = () => {
 
 const city_activities_attractionsId = {} ;
 
-
 // CREATE ACTIVITIES AND ASSIOCATING WITH THE THIER ATTRACTIONS 
 const extractingActvitiesAndAssociatingWithAttractions =async () => {
-  
-
-
   cities.forEach(city => {
       const directory = path.join(__dirname, "cities", city, "attractions.json");
       const attractionsObj = JSON.parse(fs.readFileSync(directory, "utf-8"));
       city_activities_attractionsId[city] = new Set() ; 
-      
-      
         attractionsObj.forEach(attraction => {
-          
           // extracting all actvties
           attraction.activities?.forEach(activity =>{
             city_activities_attractionsId[city].add(activity)  ; 
           })
           
-          
         });    
-        
         city_activities_attractionsId[city].forEach( activity => {
-          
-          
           city_activities_attractionsId[city][activity] = [] ;
-    
           attractionsObj.forEach(async attraction=> {
-    
             if(attraction.activities.includes(activity)){
-    
               const attractionDbRecord = await Attraction.findOne({name : attraction.name })
               city_activities_attractionsId[city][activity].push(attractionDbRecord.id) ;     
-    
             }
           });
-    
-        }); 
-            
-      
-  });
-  
-  
-    
-  
-  
+        });      
+  }); 
 }
 
 const cities_actvities_Db_records = {} ;
-
-const creatingActvties =  () =>{
+const phase2Association =  () =>{
   console.log(city_activities_attractionsId);
   cities.forEach(city => {
 
@@ -200,17 +153,14 @@ const creatingActvties =  () =>{
           city :city , 
           attractions: city_activities_attractionsId[city][activity]   
         }) ; 
-        
         cities_actvities_Db_records[city].push(newActivity.id) ;
-
       })
   });
 }
 
 // clear null records (nested) 
 // use it after seeding the database ?
-const functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a = () =>{
-
+const cleanData = () =>{
   const cleanNullValues = (obj) => {
     if (Array.isArray(obj)) {
       return obj.filter(item => item !== null).map(cleanNullValues);
@@ -224,7 +174,6 @@ const functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a = () =>{
     }
     return obj;
   }
-  
   cities.forEach(async (city) => {
     
     citiesElements.forEach(async (el) => {  
@@ -236,39 +185,38 @@ const functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a = () =>{
       console.log(directory);
       fs.writeFileSync( directory,JSON.stringify(jsonObjClean))
     });
-  });
-  
+  }); 
 }
 
 
-functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a()
-generalDataCreation() 
-extractingActvitiesAndAssociatingWithAttractions() 
-
-setTimeout(() => {
-  console.log('creatingActvties()');   
-  creatingActvties()
+const seeder  = () =>{
+  cleanData() ;
+  generalDataCreation() ; 
+  extractingActvitiesAndAssociatingWithAttractions() ; 
   
-}, 1000 * 60 * 15 );
-
-setTimeout(() => {
-  console.log('lastStep()');   
-  cities.forEach(async city => {
-    
+  setTimeout(() => {
+    phase1()
+  }, 1000 * 60 * 15 );
+  
+  setTimeout( async () => {
     const newCity = new City({
       name: city.charAt(0).toUpperCase() + city.slice(1) , 
-
+  
       hotels :rha_ids[city].hotels.ids ,
       
       restaurants :rha_ids[city].restaurants.ids ,
-
+  
       attractions :rha_ids[city].attractions.ids ,
-
+  
       activities : cities_actvities_Db_records[city] ,
-
+  
     }) ;
     await newCity.save() ;
-  });
+  } ,1000 * 60 * 16 );
+} 
+
+
+seeder() 
   
-}, 1000 * 60 * 16 );
+  
 

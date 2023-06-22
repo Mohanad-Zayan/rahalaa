@@ -63,7 +63,7 @@ const hotelSchema = new mongoose.Schema(
     },
     status: {
       type: String,
-      enum: ['active', 'in-active'],
+      enum: ['active', 'in-active' , 'deined'],
       default: 'in-active'
     },
     reviews: [{

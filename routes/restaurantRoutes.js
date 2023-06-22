@@ -11,7 +11,7 @@ router.get('/inactiveRest',
 
 router
   .route('/')
-  .get(restaurantController.getAllRestaurants)
+  .get( authController.protect, restaurantController.getAllRestaurants)
   .post(authController.protect ,  restaurantController.createRestaurant);
 
 router

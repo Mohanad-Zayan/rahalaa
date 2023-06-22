@@ -62,6 +62,7 @@ exports.createRestaurant = catcAsync(async (req, res) => {
 
 
 exports.getAllRestaurants = catcAsync(async (req, res) => {
+  
   // const restaurants = await Restaurant.find({ 'status': 'active' });
   let restaurants;
 

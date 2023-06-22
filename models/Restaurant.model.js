@@ -52,7 +52,7 @@ const restaurantSchema = new mongoose.Schema(
     },
     status: {
       type: String,
-      enum: ['active', 'in-active'],
+      enum: ['active', 'in-active' , 'denied'],
       default: 'active'
     },
     reviews: [{

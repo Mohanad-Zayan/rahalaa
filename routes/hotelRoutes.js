@@ -14,7 +14,7 @@ router.get(
 
 router
   .route("/")
-  .get(hotelController.getAllHotels)
+  .get( authController.protect , hotelController.getAllHotels)
   .post( authController.protect , hotelController.createHotel);
 
 router
