@@ -50,6 +50,10 @@ const hotelSchema = new mongoose.Schema(
       type: String,
       trim: true
     },
+    createdBy: {
+      type: mongoose.Schema.ObjectId,
+      ref: "User",
+    },
     location: {
       type: {
         type: String,

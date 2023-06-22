@@ -55,6 +55,10 @@ const restaurantSchema = new mongoose.Schema(
       enum: ['active', 'in-active' , 'denied'],
       default: 'active'
     },
+    createdBy: {
+      type: mongoose.Schema.ObjectId,
+      ref: "User",
+    },
     reviews: [{
       type: mongoose.Schema.Types.ObjectId,
       ref: 'RestReview',
