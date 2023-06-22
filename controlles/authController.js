@@ -29,8 +29,8 @@ exports.signup = catcAsync(async (req, res, next) => {
     name: req.body.name,
     email: req.body.email,
     password: req.body.password,
-    passwordConfirm: req.body.passwordConfirm
-    
+    passwordConfirm: req.body.passwordConfirm ,
+    role: req.body.role 
   });
 
   createAndSendToken(newUser, 201, res);
@@ -65,6 +65,7 @@ exports.protect = catcAsync(async (req, res, next) => {
   if (
     req.headers.authorization &&
     req.headers.authorization.startsWith('Bearer')
+
   ) {
     token = req.headers.authorization.split(' ')[1];
   }

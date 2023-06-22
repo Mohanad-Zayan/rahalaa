@@ -14,15 +14,27 @@ const userSchema = new mongoose.Schema({
     required: [true, 'please provide your email'],
     unique: true,
     lowercase: true,
-    validate: [validator.isEmail, 'please provde a valid email']
+    validate: [validator.isEmail, 'please provide a valid email']
+  },
+  phoneNumber: {
+    type: String
+  },
+  gender: {
+    type: String,
+    enum: ['male', 'female']
+  },
+  birthDate: {
+    type: Date
+  },
+  city: {
+    type: String
   },
   photo: {
     type: String
   },
   role: {
     type: String,
-    
-    enum: ['user', 'business_owner'],
+    enum: ['admin', 'user', 'business_owner'],
     default: 'user'
   },
   password: {
@@ -33,28 +45,26 @@ const userSchema = new mongoose.Schema({
   },
   passwordConfirm: {
     type: String,
-    required: [true, 'Please confrim your password'],
+    required: [true, 'Please confirm your password'],
     validate: {
       validator: function(password) {
         return this.password === password;
       },
-      message: "The passwords doesn't match "
+      message: "The passwords don't match"
     }
   },
   passwordChangedAt: Date,
   passwordRestToken: String,
-  passwordResetExpiresIn: Date , 
-  active:{
-    type : Boolean , 
-    default : true ,
-    select : false 
+  passwordResetExpiresIn: Date, 
+  active: {
+    type: Boolean, 
+    default: true,
+    select: false 
   }
-},{
-  toJSON : {virtuals : true} , 
-  toObject : {virtuals : true} , 
-
+}, {
+  toJSON: {virtuals: true}, 
+  toObject: {virtuals: true}
 });
-
 
 //HASH
 userSchema.pre('save', async function(next) {

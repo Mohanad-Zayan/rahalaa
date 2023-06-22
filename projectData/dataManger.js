@@ -241,21 +241,15 @@ const functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a = () =>{
 }
 
 
-// functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a()
-
+functionKanitMmknTt3mlBshakilA7snbsAnaKsltAsra7a()
 generalDataCreation() 
 extractingActvitiesAndAssociatingWithAttractions() 
-
-
-
 
 setTimeout(() => {
   console.log('creatingActvties()');   
   creatingActvties()
   
 }, 1000 * 60 * 15 );
-
-
 
 setTimeout(() => {
   console.log('lastStep()');   

@@ -21,6 +21,7 @@ const cities = [
   "hurghada",
   "portSaid",
 ];
+
 const citiesElements = ["restaurants", "attractions", "hotels"];
 
 const rha_ids = {};

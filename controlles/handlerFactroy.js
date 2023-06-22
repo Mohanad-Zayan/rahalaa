@@ -56,6 +56,7 @@ exports.getOne = (Model, populateOption) => {
 };
 
 exports.createOne = (Model) => {
+  
   return catchAsync(async (req, res) => {
     const document = await Model.create(req.body);
     res.status(201).json({
