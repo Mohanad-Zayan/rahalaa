@@ -28,12 +28,11 @@ exports.signup = catcAsync(async (req, res, next) => {
     name: req.body.name,
     email: req.body.email,
     password: req.body.password,
-    passwordConfirm: req.body.passwordConfirm,
     phoneNumber: req.body.phoneNumber,
     gender: req.body.gender,
     birthDate: req.body.birthDate,
     city: req.body.city,
-    role: req.body.role
+    role: req.body.role,
   });
 
   createAndSendToken(newUser, 201, res);
